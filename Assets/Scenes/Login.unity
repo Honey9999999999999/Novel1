@@ -1656,6 +1656,9 @@ GameObject:
   - component: {fileID: 1775718862}
   - component: {fileID: 1775718863}
   - component: {fileID: 1775718864}
+  - component: {fileID: 1775718865}
+  - component: {fileID: 1775718866}
+  - component: {fileID: 1775718867}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1719,7 +1722,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 60.863636
     y: 111.86364
-    width: 76.31578
+    width: 78.12499
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1748,11 +1751,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 79.08263, y: 31.492033}
+  scrollPos: {x: 166.17136, y: 61.097263}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.76000017
+  zoom: 0.6400002
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1761,8 +1764,10 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1775718845}
-  selectedCommands: []
-  variables: []
+  selectedCommands:
+  - {fileID: 1775718867}
+  variables:
+  - {fileID: 1775718865}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -1819,7 +1824,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 183.01848
     y: 112.52709
-    width: 69.73684
+    width: 68.74999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1833,6 +1838,8 @@ MonoBehaviour:
   - {fileID: 1775718850}
   - {fileID: 1775718862}
   - {fileID: 1775718864}
+  - {fileID: 1775718866}
+  - {fileID: 1775718867}
   - {fileID: 1775718855}
   suppressAllAutoSelections: 0
 --- !u!114 &1775718846
@@ -2063,7 +2070,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &1775718864
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2106,6 +2113,54 @@ MonoBehaviour:
   returnValueType: System.Void
   showInherited: 0
   callMode: 0
+--- !u!114 &1775718865
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775718834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4580f28dd8581476b810b38eea2f1316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  key: playerName
+  value: Main Hero
+--- !u!114 &1775718866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775718834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e889853a4ba0b446d97008a78fa4cf1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 24
+  indentLevel: 0
+  targetTextObject: {fileID: 1580431736}
+  stringVariable: {fileID: 1775718865}
+  _textObjectObsolete: {fileID: 0}
+--- !u!114 &1775718867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775718834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bef7966140464bd5a3ef4da2ff236b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 25
+  indentLevel: 0
+  key: playerName
+  variable: {fileID: 1775718865}
 --- !u!1 &1891661316
 GameObject:
   m_ObjectHideFlags: 0
