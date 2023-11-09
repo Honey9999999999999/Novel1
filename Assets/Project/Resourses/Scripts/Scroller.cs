@@ -29,11 +29,11 @@ public class Scroller : MonoBehaviour
                 break;
             }
         }
-        
     }
 
     public void Scroll(Vector2 scrollVector)
     {
-        activeScrollble.Move(new Vector3(scrollVector.x, scrollVector.y, 0) * speedScroll);
+        if(!activeScrollble.Equals(null))
+            activeScrollble.Move(new Vector3(scrollVector.x, scrollVector.y, 0) * speedScroll);
     }
 }
