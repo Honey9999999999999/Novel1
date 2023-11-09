@@ -33,7 +33,7 @@ public class Scroller : MonoBehaviour
 
     public void Scroll(Vector2 scrollVector)
     {
-        if(!activeScrollble.Equals(null))
+        if(activeScrollble != null)
             activeScrollble.Move(new Vector3(scrollVector.x, scrollVector.y, 0) * speedScroll);
     }
 }
