@@ -14,10 +14,8 @@ namespace Assets.Project.Resourses.Scripts
 
         public void GetName()
         {
-            if (nameText.text == "")
-                nameText.text = "Main Hero";
-
-            MainCharacterData.namePlayer = nameText.text;
+            if (!nameText.text.Equals(""))
+                MainCharacterData.namePlayer = nameText.text;
         }
     }
 }

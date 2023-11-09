@@ -1754,7 +1754,7 @@ MonoBehaviour:
   scrollPos: {x: 166.17136, y: 61.097263}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 400
+  blockViewHeight: 433
   zoom: 0.6400002
   scrollViewRect:
     serializedVersion: 2
@@ -1765,7 +1765,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1775718845}
   selectedCommands:
-  - {fileID: 1775718867}
+  - {fileID: 1775718864}
   variables:
   - {fileID: 1775718865}
   description: 
@@ -2130,7 +2130,7 @@ MonoBehaviour:
   value: Main Hero
 --- !u!114 &1775718866
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2147,7 +2147,7 @@ MonoBehaviour:
   _textObjectObsolete: {fileID: 0}
 --- !u!114 &1775718867
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
