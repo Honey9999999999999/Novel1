@@ -22,7 +22,7 @@ public class Scroller : MonoBehaviour
     public void SetNewActiveObject()
     {
         List<RaycastResult> raycastResults = canvasRaycaster.GetAllRaycast();
-        for (int i = 0; i < raycastResults.Capacity; i++)
+        for (int i = 0; i < raycastResults.Count; i++)
         {
             if(raycastResults[i].gameObject.TryGetComponent(out activeScrollble))
             {
