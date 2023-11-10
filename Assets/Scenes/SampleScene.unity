@@ -6809,7 +6809,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6929689008175254125, guid: 612876172f75a6d418d796dbcbb7f13a, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7614142751296468532, guid: 612876172f75a6d418d796dbcbb7f13a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8037519946234543698, guid: 612876172f75a6d418d796dbcbb7f13a, type: 3}
       propertyPath: m_PreferredWidth
@@ -6846,10 +6850,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4840852259197231257, guid: 612876172f75a6d418d796dbcbb7f13a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5733922067116781274}
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7161810390710646821, guid: 612876172f75a6d418d796dbcbb7f13a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 612876172f75a6d418d796dbcbb7f13a, type: 3}
 --- !u!114 &1670166179164097062 stripped
 MonoBehaviour:
