@@ -425,6 +425,7 @@ GameObject:
   - component: {fileID: 310040995}
   - component: {fileID: 310040997}
   - component: {fileID: 310040996}
+  - component: {fileID: 310040998}
   m_Layer: 5
   m_Name: BGMain
   m_TagString: Untagged
@@ -489,6 +490,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 310040994}
   m_CullTransparentMesh: 1
+--- !u!114 &310040998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 310040994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0c3028e0d2177d438e084e141c3c4b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speedAnimation: 0.5
+  targetAngle: 15
+  targetScale: {x: 1.5, y: 1.5, z: 1}
+  isAnimDone: 0
 --- !u!1 &333880415
 GameObject:
   m_ObjectHideFlags: 0
@@ -506,13 +523,13 @@ GameObject:
   - component: {fileID: 333880422}
   - component: {fileID: 333880423}
   - component: {fileID: 333880424}
-  - component: {fileID: 333880425}
   - component: {fileID: 333880427}
   - component: {fileID: 333880426}
   - component: {fileID: 333880430}
   - component: {fileID: 333880429}
   - component: {fileID: 333880428}
   - component: {fileID: 333880431}
+  - component: {fileID: 333880432}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -610,9 +627,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -1
+    x: 0
     y: 71.86363
-    width: 109
+    width: 109.49365
     height: 40
   tint: {r: 0.19824673, g: 0.764151, b: 0.3305643, a: 1}
   useCustomTint: 1
@@ -626,7 +643,7 @@ MonoBehaviour:
   - {fileID: 333880422}
   - {fileID: 333880431}
   - {fileID: 333880430}
-  - {fileID: 333880425}
+  - {fileID: 333880432}
   - {fileID: 333880416}
   - {fileID: 333880424}
   - {fileID: 333880429}
@@ -646,11 +663,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 131.8643, y: 53.010365}
+  scrollPos: {x: 221.9819, y: 69.66173}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 482
-  zoom: 1
+  zoom: 0.7900002
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -703,7 +720,7 @@ MonoBehaviour:
   indentLevel: 0
   duration: 1
   fadeOut: 1
-  targetView: {fileID: 0}
+  targetView: {fileID: 1275898013}
   waitUntilFinished: 0
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
@@ -747,33 +764,12 @@ MonoBehaviour:
   indentLevel: 0
   duration: 1
   fadeOut: 1
-  targetView: {fileID: 0}
+  targetView: {fileID: 1275898013}
   waitUntilFinished: 0
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   targetCamera: {fileID: 698470960}
   fadeTweenType: 4
-  orthoSizeTweenType: 4
-  posTweenType: 4
-  rotTweenType: 4
---- !u!114 &333880425
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 333880415}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45c952ea1ad444e479b570fa242679c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 5
-  indentLevel: 0
-  duration: 20
-  targetView: {fileID: 0}
-  waitUntilFinished: 0
-  targetCamera: {fileID: 698470960}
   orthoSizeTweenType: 4
   posTweenType: 4
   rotTweenType: 4
@@ -948,6 +944,34 @@ MonoBehaviour:
     floatRef: {fileID: 0}
     floatVal: 0.5
   durationOLD: 0
+--- !u!114 &333880432
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333880415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 137
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 310040994}
+  targetComponentAssemblyName: BGAnimator, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: BGAnimator
+  targetMethod: StartAnimation
+  targetMethodText: 'StartAnimation (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!1 &414082942
 GameObject:
   m_ObjectHideFlags: 0
@@ -2577,6 +2601,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1256099330}
   m_CullTransparentMesh: 1
+--- !u!1 &1275898012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1275898014}
+  - component: {fileID: 1275898013}
+  m_Layer: 0
+  m_Name: View
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1275898013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1275898012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95c387d3e32404bcc91c60318d766bb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  viewSize: 1
+  primaryAspectRatio: {x: 4, y: 3}
+  secondaryAspectRatio: {x: 2, y: 1}
+--- !u!4 &1275898014
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1275898012}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 924.9515, y: 802.9949, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1278428955
 GameObject:
   m_ObjectHideFlags: 0
@@ -3446,3 +3517,4 @@ SceneRoots:
   - {fileID: 333880421}
   - {fileID: 24835014}
   - {fileID: 244454057}
+  - {fileID: 1275898014}
