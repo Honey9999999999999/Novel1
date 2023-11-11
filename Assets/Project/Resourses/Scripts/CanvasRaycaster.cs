@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 
@@ -13,11 +14,16 @@ namespace Assets.Project.Resourses.Scripts
     [RequireComponent(typeof(GraphicRaycaster))]
     public class CanvasRaycaster : MonoBehaviour
     {
-        GraphicRaycaster m_Raycaster;
+        [SerializeField] GraphicRaycaster m_Raycaster;
         PointerEventData m_PointerEventData;
         EventSystem m_EventSystem;
 
-        void Start()
+        private void Start()
+        {
+            Initialize();
+        }
+
+        private void Initialize()
         {
             m_Raycaster = GetComponent<GraphicRaycaster>();
             m_EventSystem = EventSystem.current;

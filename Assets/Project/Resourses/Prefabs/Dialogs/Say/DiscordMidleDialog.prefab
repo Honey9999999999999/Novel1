@@ -232,7 +232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a0bbe22c246e4c78ad8e9816cbae9d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeDuration: 3
+  fadeDuration: 2
   continueButton: {fileID: 0}
   dialogCanvas: {fileID: 6731416953995989629}
   nameText: {fileID: 0}

@@ -43,6 +43,7 @@ public class BGAnimator : MonoBehaviour
         float speedScalingX = (speedAnimation * Time.deltaTime) / targetAngle * (targetScale.x - 1);
         float speedScalingY = (speedAnimation * Time.deltaTime) / targetAngle * (targetScale.y - 1);
         float speedScalingZ = (speedAnimation * Time.deltaTime) / targetAngle * (targetScale.z - 1);
+
         transform.localScale += new Vector3(speedScalingX, speedScalingY, speedScalingZ);
     }
 

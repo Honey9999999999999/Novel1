@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(CanvasRaycaster))]
@@ -12,7 +13,12 @@ public class Scroller : MonoBehaviour
     [SerializeField] private Scrollble activeScrollble;
     [SerializeField] private CanvasRaycaster canvasRaycaster;
 
-    private void Start()
+    private void OnLevelWasLoaded(int level)
+    {
+        Initialize();
+    }
+
+    private void Initialize()
     {
         InputService.OnClick0 += SetNewActiveObject;
         InputService.OnScroll += Scroll;
