@@ -495,7 +495,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1085.1948
     y: 300.9304
+<<<<<<< HEAD
     width: 78.571434
+=======
+    width: 76.92307
+>>>>>>> d076928fafde757361c1c8fa0018b2818d487b2d
     height: 40
   tint: {r: 0.19824673, g: 0.764151, b: 0.3305643, a: 1}
   useCustomTint: 1
@@ -524,11 +528,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
+<<<<<<< HEAD
   scrollPos: {x: 1354.5603, y: -137.0124}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
   zoom: 0.6999998
+=======
+  scrollPos: {x: 1161.1431, y: -21.172081}
+  variablesScrollPos: {x: 0, y: 0}
+  variablesExpanded: 1
+  blockViewHeight: 440
+  zoom: 0.52000004
+>>>>>>> d076928fafde757361c1c8fa0018b2818d487b2d
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -598,9 +610,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
+<<<<<<< HEAD
     x: -709.6014
     y: 356.78113
     width: 114.28573
+=======
+    x: -708.465
+    y: 314.73596
+    width: 119.23077
+>>>>>>> d076928fafde757361c1c8fa0018b2818d487b2d
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -749,9 +767,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
+<<<<<<< HEAD
     x: -565.4083
     y: 284.35168
     width: 101.42859
+=======
+    x: -561.7674
+    y: 217.93681
+    width: 105.769226
+>>>>>>> d076928fafde757361c1c8fa0018b2818d487b2d
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -808,9 +832,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
+<<<<<<< HEAD
     x: -425.9913
     y: 282.31512
     width: 112.85716
+=======
+    x: -436.51068
+    y: 331.47073
+    width: 117.307686
+>>>>>>> d076928fafde757361c1c8fa0018b2818d487b2d
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1018,9 +1048,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
+<<<<<<< HEAD
     x: -280.19235
     y: 284.77722
     width: 117.142876
+=======
+    x: -287.0105
+    y: 223.12146
+    width: 119.23077
+>>>>>>> d076928fafde757361c1c8fa0018b2818d487b2d
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1124,9 +1160,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
+<<<<<<< HEAD
     x: -137.7888
     y: 282.0266
     width: 164.28574
+=======
+    x: -145.74338
+    y: 349.0719
+    width: 167.30768
+>>>>>>> d076928fafde757361c1c8fa0018b2818d487b2d
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1209,8 +1251,13 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 55.275818
+<<<<<<< HEAD
     y: 282.32697
     width: 71.42857
+=======
+    y: 289.1451
+    width: 73.07692
+>>>>>>> d076928fafde757361c1c8fa0018b2818d487b2d
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1543,9 +1590,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
+<<<<<<< HEAD
     x: -915.86444
     y: 199.30798
     width: 130.00003
+=======
+    x: -917.293
+    y: 200.73656
+    width: 134.61539
+>>>>>>> d076928fafde757361c1c8fa0018b2818d487b2d
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1658,9 +1711,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
+<<<<<<< HEAD
     x: -902.43823
     y: 420.46783
     width: 97.14287
+=======
+    x: -921.7562
+    y: 439.7859
+    width: 142.30768
+>>>>>>> d076928fafde757361c1c8fa0018b2818d487b2d
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2032,9 +2091,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
+<<<<<<< HEAD
     x: -908.7517
     y: 298.70892
     width: 111.42859
+=======
+    x: -926.93335
+    y: 313.48163
+    width: 155.76923
+>>>>>>> d076928fafde757361c1c8fa0018b2818d487b2d
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2233,9 +2298,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
+<<<<<<< HEAD
     x: -895.4482
     y: 357.84296
     width: 84.28572
+=======
+    x: -912.49347
+    y: 374.8883
+    width: 126.92307
+>>>>>>> d076928fafde757361c1c8fa0018b2818d487b2d
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3173,9 +3244,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
+<<<<<<< HEAD
     x: -749.29236
     y: 200.91417
     width: 155.71432
+=======
+    x: -750.4287
+    y: 204.32327
+    width: 163.46153
+>>>>>>> d076928fafde757361c1c8fa0018b2818d487b2d
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
