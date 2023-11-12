@@ -729,6 +729,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1667189791818591178, guid: 43b0cc66bf04fb7479ae4d80b943b6b8, type: 3}
+      propertyPath: portraitsFace
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1667189791818591178, guid: 43b0cc66bf04fb7479ae4d80b943b6b8, type: 3}
+      propertyPath: portraits.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1667189791818591178, guid: 43b0cc66bf04fb7479ae4d80b943b6b8, type: 3}
+      propertyPath: portraits.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 5b4d3317271b0bb43b2f0c9060e0c8c1, type: 3}
+    - target: {fileID: 2786873425632894323, guid: 43b0cc66bf04fb7479ae4d80b943b6b8, type: 3}
+      propertyPath: portraits.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2786873425632894323, guid: 43b0cc66bf04fb7479ae4d80b943b6b8, type: 3}
+      propertyPath: portraits.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 0e3ed72f8d52eec45bdae8d14786706d, type: 3}
+    - target: {fileID: 2898648864624331406, guid: 43b0cc66bf04fb7479ae4d80b943b6b8, type: 3}
+      propertyPath: portraits.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2898648864624331406, guid: 43b0cc66bf04fb7479ae4d80b943b6b8, type: 3}
+      propertyPath: portraits.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 137bb1e5684c3c944abff3ce47ccaf11, type: 3}
     - target: {fileID: 4796188338411136495, guid: 43b0cc66bf04fb7479ae4d80b943b6b8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 40.950867
@@ -769,6 +797,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5102816162468820745, guid: 43b0cc66bf04fb7479ae4d80b943b6b8, type: 3}
+      propertyPath: portraits.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5102816162468820745, guid: 43b0cc66bf04fb7479ae4d80b943b6b8, type: 3}
+      propertyPath: portraits.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: ef6917cf6b648ef4287d6515de7b903b, type: 3}
     - target: {fileID: 5317160954843398796, guid: 43b0cc66bf04fb7479ae4d80b943b6b8, type: 3}
       propertyPath: m_Name
       value: Characters
