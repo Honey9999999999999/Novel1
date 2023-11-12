@@ -13,16 +13,16 @@ public class Scroller : MonoBehaviour
     [SerializeField] private Scrollble activeScrollble;
     [SerializeField] private CanvasRaycaster canvasRaycaster;
 
-    private void OnLevelWasLoaded(int level)
-    {
-        Initialize();
-    }
-
-    private void Initialize()
+    private void OnEnable()
     {
         InputService.OnClick0 += SetNewActiveObject;
         InputService.OnScroll += Scroll;
         canvasRaycaster = GetComponent<CanvasRaycaster>();
+    }
+    private void OnDisable()
+    {
+        InputService.OnClick0 -= SetNewActiveObject;
+        InputService.OnScroll -= Scroll;
     }
 
     public void SetNewActiveObject()

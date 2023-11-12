@@ -18,7 +18,7 @@ namespace Assets.Project.Resourses.Scripts
         PointerEventData m_PointerEventData;
         EventSystem m_EventSystem;
 
-        private void Start()
+        private void Awake()
         {
             Initialize();
         }
