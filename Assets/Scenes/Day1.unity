@@ -496,10 +496,14 @@ MonoBehaviour:
     x: -1085.1948
     y: 300.9304
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 78.571434
 =======
     width: 76.92307
 >>>>>>> d076928fafde757361c1c8fa0018b2818d487b2d
+=======
+    width: 76.53061
+>>>>>>> parent of d076928 (stage)
     height: 40
   tint: {r: 0.19824673, g: 0.764151, b: 0.3305643, a: 1}
   useCustomTint: 1
@@ -529,6 +533,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   scrollPos: {x: 1354.5603, y: -137.0124}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
@@ -541,6 +546,13 @@ MonoBehaviour:
   blockViewHeight: 440
   zoom: 0.52000004
 >>>>>>> d076928fafde757361c1c8fa0018b2818d487b2d
+=======
+  scrollPos: {x: 859.5558, y: -28.270655}
+  variablesScrollPos: {x: 0, y: 0}
+  variablesExpanded: 1
+  blockViewHeight: 440
+  zoom: 0.49000004
+>>>>>>> parent of d076928 (stage)
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -549,8 +561,10 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 720610783}
+  - {fileID: 720610743}
   selectedCommands:
   - {fileID: 720610778}
+  - {fileID: 720610825}
   variables:
   - {fileID: 720610705}
   - {fileID: 720610753}
@@ -617,8 +631,12 @@ MonoBehaviour:
 =======
     x: -708.465
     y: 314.73596
+<<<<<<< HEAD
     width: 119.23077
 >>>>>>> d076928fafde757361c1c8fa0018b2818d487b2d
+=======
+    width: 109.18367
+>>>>>>> parent of d076928 (stage)
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -774,8 +792,12 @@ MonoBehaviour:
 =======
     x: -561.7674
     y: 217.93681
+<<<<<<< HEAD
     width: 105.769226
 >>>>>>> d076928fafde757361c1c8fa0018b2818d487b2d
+=======
+    width: 94.89796
+>>>>>>> parent of d076928 (stage)
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -839,8 +861,12 @@ MonoBehaviour:
 =======
     x: -436.51068
     y: 331.47073
+<<<<<<< HEAD
     width: 117.307686
 >>>>>>> d076928fafde757361c1c8fa0018b2818d487b2d
+=======
+    width: 107.14285
+>>>>>>> parent of d076928 (stage)
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1055,8 +1081,12 @@ MonoBehaviour:
 =======
     x: -287.0105
     y: 223.12146
+<<<<<<< HEAD
     width: 119.23077
 >>>>>>> d076928fafde757361c1c8fa0018b2818d487b2d
+=======
+    width: 109.18367
+>>>>>>> parent of d076928 (stage)
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1167,8 +1197,12 @@ MonoBehaviour:
 =======
     x: -145.74338
     y: 349.0719
+<<<<<<< HEAD
     width: 167.30768
 >>>>>>> d076928fafde757361c1c8fa0018b2818d487b2d
+=======
+    width: 154.08163
+>>>>>>> parent of d076928 (stage)
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1256,8 +1290,12 @@ MonoBehaviour:
     width: 71.42857
 =======
     y: 289.1451
+<<<<<<< HEAD
     width: 73.07692
 >>>>>>> d076928fafde757361c1c8fa0018b2818d487b2d
+=======
+    width: 68.36735
+>>>>>>> parent of d076928 (stage)
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1543,7 +1581,6 @@ MonoBehaviour:
   showAlways: 1
   showCount: 1
   extendPrevious: 0
-  fadeWhenDone: 0
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
@@ -1597,8 +1634,12 @@ MonoBehaviour:
 =======
     x: -917.293
     y: 200.73656
+<<<<<<< HEAD
     width: 134.61539
 >>>>>>> d076928fafde757361c1c8fa0018b2818d487b2d
+=======
+    width: 119.38775
+>>>>>>> parent of d076928 (stage)
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1718,8 +1759,12 @@ MonoBehaviour:
 =======
     x: -921.7562
     y: 439.7859
+<<<<<<< HEAD
     width: 142.30768
 >>>>>>> d076928fafde757361c1c8fa0018b2818d487b2d
+=======
+    width: 129.59183
+>>>>>>> parent of d076928 (stage)
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2098,8 +2143,12 @@ MonoBehaviour:
 =======
     x: -926.93335
     y: 313.48163
+<<<<<<< HEAD
     width: 155.76923
 >>>>>>> d076928fafde757361c1c8fa0018b2818d487b2d
+=======
+    width: 141.83673
+>>>>>>> parent of d076928 (stage)
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2305,8 +2354,12 @@ MonoBehaviour:
 =======
     x: -912.49347
     y: 374.8883
+<<<<<<< HEAD
     width: 126.92307
 >>>>>>> d076928fafde757361c1c8fa0018b2818d487b2d
+=======
+    width: 119.38775
+>>>>>>> parent of d076928 (stage)
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3251,8 +3304,12 @@ MonoBehaviour:
 =======
     x: -750.4287
     y: 204.32327
+<<<<<<< HEAD
     width: 163.46153
 >>>>>>> d076928fafde757361c1c8fa0018b2818d487b2d
+=======
+    width: 145.91837
+>>>>>>> parent of d076928 (stage)
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
