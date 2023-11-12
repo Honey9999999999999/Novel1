@@ -848,7 +848,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1775718845}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1775718855}
   variables:
   - {fileID: 1775718865}
   description: 
@@ -939,7 +940,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: SampleScene
+    stringVal: Day1
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &1775718860
@@ -1099,7 +1100,7 @@ MonoBehaviour:
   variable: {fileID: 1775718865}
 --- !u!114 &1775718868
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
