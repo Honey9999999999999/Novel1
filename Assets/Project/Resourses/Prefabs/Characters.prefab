@@ -49,6 +49,7 @@ MonoBehaviour:
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: 36014a1185d519b4a9438c2e39acab96, type: 3}
+  - {fileID: 21300000, guid: d5c1d5346cf32d1418f905daf96d2f86, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: Morgan
@@ -153,6 +154,7 @@ MonoBehaviour:
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: c22572a7fd9e1b14ab5951652dbf35fa, type: 3}
+  - {fileID: 21300000, guid: cb9dd83847baf6a4295926e1fc453a43, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: Honey
@@ -205,6 +207,7 @@ MonoBehaviour:
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: b4a1108261080af44bddf0b9d18d191b, type: 3}
+  - {fileID: 21300000, guid: 38a4c3e3f9b9f6044b72db3936dac6bf, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 'Van1exx _ ScenarioMan
@@ -455,6 +458,7 @@ MonoBehaviour:
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: 461c16a8d8359d64fb3bfbb889953e56, type: 3}
+  - {fileID: 21300000, guid: e9ddb21ce042ff4459344772d565b400, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: Vondarm - Main Giga Brain
@@ -507,6 +511,7 @@ MonoBehaviour:
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: e6d83e8064315334e9b661b73dd165f2, type: 3}
+  - {fileID: 21300000, guid: 42904f5fe279ea54aa01dcef35835740, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: Joly
