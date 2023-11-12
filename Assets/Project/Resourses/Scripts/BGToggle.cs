@@ -21,7 +21,7 @@ public enum BG
     Black
 }
 
-[System.Serializable]
+[Serializable]
 public class Background
 {
     public BG name;
