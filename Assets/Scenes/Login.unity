@@ -233,6 +233,8 @@ GameObject:
   - component: {fileID: 448598754}
   - component: {fileID: 448598756}
   - component: {fileID: 448598757}
+  - component: {fileID: 448598759}
+  - component: {fileID: 448598758}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -325,6 +327,7 @@ MonoBehaviour:
   eventHandler: {fileID: 448598746}
   commandList:
   - {fileID: 448598745}
+  - {fileID: 448598758}
   suppressAllAutoSelections: 0
 --- !u!114 &448598748
 MonoBehaviour:
@@ -351,9 +354,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 448598753}
+  - {fileID: 448598747}
   selectedCommands:
-  - {fileID: 448598751}
+  - {fileID: 448598758}
   variables:
   - {fileID: 448598752}
   description: 
@@ -466,6 +469,7 @@ MonoBehaviour:
   eventHandler: {fileID: 448598755}
   commandList:
   - {fileID: 448598751}
+  - {fileID: 448598759}
   - {fileID: 448598757}
   - {fileID: 448598756}
   - {fileID: 448598754}
@@ -537,6 +541,42 @@ MonoBehaviour:
   targetTextObject: {fileID: 1996942190}
   stringVariable: {fileID: 448598752}
   _textObjectObsolete: {fileID: 0}
+--- !u!114 &448598758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448598744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 9
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
+--- !u!114 &448598759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448598744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 8
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
 --- !u!1 &758143628
 GameObject:
   m_ObjectHideFlags: 0
@@ -731,7 +771,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 539.643
+  orthographic size: 540
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -755,8 +795,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 807818964}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 959, y: 540, z: -10}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 960, y: 540, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4484,7 +4524,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6468000036667191962}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6073,7 +6113,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 273227493}
   - {fileID: 807818967}
-  - {fileID: 448598749}
   - {fileID: 5962240425626097447}
+  - {fileID: 448598749}
   - {fileID: 1208395642}
   - {fileID: 273385715}

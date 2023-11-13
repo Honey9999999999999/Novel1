@@ -430,6 +430,8 @@ GameObject:
   - component: {fileID: 333880428}
   - component: {fileID: 333880432}
   - component: {fileID: 333880433}
+  - component: {fileID: 333880436}
+  - component: {fileID: 333880434}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -552,10 +554,12 @@ MonoBehaviour:
   - {fileID: 333880427}
   - {fileID: 333880426}
   - {fileID: 333880430}
+  - {fileID: 333880436}
   - {fileID: 333880432}
   - {fileID: 333880416}
   - {fileID: 333880433}
   - {fileID: 333880428}
+  - {fileID: 333880434}
   - {fileID: 333880423}
   suppressAllAutoSelections: 0
 --- !u!114 &333880420
@@ -585,7 +589,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 333880419}
   selectedCommands:
-  - {fileID: 333880423}
+  - {fileID: 333880416}
   variables:
   - {fileID: 333880417}
   description: 
@@ -648,7 +652,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 3
+    floatVal: 2
   durationOLD: 0
 --- !u!114 &333880427
 MonoBehaviour:
@@ -664,7 +668,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 126
   indentLevel: 0
-  storyText: "  \u041F\u0440\u043E\u043B\u043E\u0433{w}{w=3.0}  "
+  storyText: "  \u041F\u0440\u043E\u043B\u043E\u0433{w}{w=2.0}  "
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -842,6 +846,42 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 1278428960}
+--- !u!114 &333880434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333880415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 141
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
+--- !u!114 &333880436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333880415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 139
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
 --- !u!1 &414082942
 GameObject:
   m_ObjectHideFlags: 0
