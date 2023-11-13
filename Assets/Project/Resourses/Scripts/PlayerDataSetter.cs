@@ -1,13 +1,7 @@
 ﻿using Fungus;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.UIElements;
 
 namespace Assets.Project.Resourses.Scripts
 {

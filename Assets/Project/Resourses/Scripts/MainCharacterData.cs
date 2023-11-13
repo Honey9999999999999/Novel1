@@ -7,5 +7,4 @@ using UnityEngine.UI;
 public static class MainCharacterData
 {
     public static string namePlayer = "Main Hero";
-    public static Sprite spriteTextName;
 }

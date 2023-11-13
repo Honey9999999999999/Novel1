@@ -37,21 +37,10 @@ public class BGToggle : MonoBehaviour
 
     [SerializeField] private BG requiredBG;
 
-    private Flowchart flowchart;
-    private Block activeBlock;
-    private Command activeCommand;
-
     private bool isFadePlayed = false;
     private bool isFade = true;
     private bool isToggle = false;
 
-    private void Start()
-    {
-        flowchart = FindObjectOfType<Flowchart>();
-
-        if (flowchart == null)
-            throw new Exception("Flowchart is not find");
-    }
     private void Update()
     {
         if (isFadePlayed)
@@ -76,8 +65,6 @@ public class BGToggle : MonoBehaviour
                 isFadePlayed = false;
                 isToggle = false;
                 isFade = true;
-
-                flowchart.ExecuteBlock(activeBlock, activeCommand.CommandIndex + 1);
             }                
         }
     }
@@ -86,10 +73,6 @@ public class BGToggle : MonoBehaviour
     {
         isFadePlayed = true;
         requiredBG = name;
-
-        activeBlock = flowchart.SelectedBlock;
-        activeCommand = activeBlock.ActiveCommand;
-        flowchart.StopBlock(activeBlock.BlockName);
     }
 
     private void ChangeAlphaTo(float a)
