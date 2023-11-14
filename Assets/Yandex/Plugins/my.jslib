@@ -6,7 +6,14 @@ mergeInto(LibraryManager.library, {
   },
 
   GiveMePlayerData: function () {
-    console.log(player.getName());
-    console.log(player.getPhoto("medium"));
+    myGameInstance.SendMessage('Yandex', 'SetName', player.getName());
+    myGameInstance.SendMessage('Yandex', 'SetPhoto', player.getPhoto("medium"));
+  },
+
+  SaveExtern: function(date){
+
+  },
+  LoadExtern: function(){
+
   },
 });

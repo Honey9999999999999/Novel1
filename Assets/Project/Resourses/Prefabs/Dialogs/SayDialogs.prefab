@@ -130,6 +130,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DiscordSayDialog
       objectReference: {fileID: 0}
+    - target: {fileID: 5605842245361116072, guid: 4b289e0ee42b3b04db62349ba0624a7c, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
