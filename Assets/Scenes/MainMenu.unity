@@ -656,7 +656,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: v0.31
+  m_Text: v0.34
 --- !u!222 &999410511
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1267,7 +1267,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 1245744888328984956, guid: 1212ad3da2ca0ea4e9e94ae5acbd67e6, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1212ad3da2ca0ea4e9e94ae5acbd67e6, type: 3}
@@ -2018,7 +2019,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 46866604}
         m_TargetAssemblyTypeName: Yandex, Assembly-CSharp
-        m_MethodName: HelloButton
+        m_MethodName: AutorizeteButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

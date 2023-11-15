@@ -1,24 +1,20 @@
 mergeInto(LibraryManager.library, {
 
-  Hello: function () {
-    window.alert("Hello, world!");
-    console.log("HW");
-  },
-
   GiveMePlayerData: function () {
     myGameInstance.SendMessage('Yandex', 'SetName', player.getName());
     myGameInstance.SendMessage('Yandex', 'SetPhoto', player.getPhoto("medium"));
   },
 
-  SaveExtern: function(date){
-    var dateString = UTF8ToString(date);
-    var myObj = JSON.parse(dateString);
-    player.setData(myObj);
+  SaveExtern: function(data){
+    var dataString = UTF8ToString(data);
+    var dataObject = JSON.parse(dataString);
+    player.setData(dataObject);
   },
   
   LoadExtern: function(){
-    player.getData().then(_date => {
-      const myJSON = JSON.stringify(_date);
+    player.getData().then(_data => {
+      console.log("Player data:", _data);
+      const myJSON = JSON.stringify(_data);
       myGameInstance.SendMessage('Progress', 'SetPlayerInfo', myJSON);
     });
   },

@@ -7,7 +7,11 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Button))]
 public class Loader : MonoBehaviour
 {
-    private void Start()
+    private void OnEnable()
+    {
+        Progress.instance.OnSaveLoaded += CheckSaves;
+    }
+    public void CheckSaves()
     {
         if (Progress.instance.save.level.Equals(0))
             gameObject.GetComponent<Button>().interactable = false;

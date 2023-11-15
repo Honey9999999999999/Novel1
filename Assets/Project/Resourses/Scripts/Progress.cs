@@ -29,15 +29,14 @@ public class PlayerInfo
 public class Progress : MonoBehaviour
 {
     public Save save;
+    public event Action OnSaveLoaded;
 
     [DllImport("__Internal")]
-    private static extern void SaveExtern(string date);
+    private static extern void SaveExtern(string data);
     [DllImport("__Internal")]
     private static extern void LoadExtern();
 
     public static Progress instance;
-
-    [SerializeField] TextMeshProUGUI loadInfo;
 
     private void Awake()
     {
@@ -45,8 +44,7 @@ public class Progress : MonoBehaviour
         {
             transform.parent = null;
             DontDestroyOnLoad(gameObject);
-            instance = this;
-            //LoadExtern();
+            instance = this;            
         }
         else
         {
@@ -58,13 +56,17 @@ public class Progress : MonoBehaviour
     {
         SaveScene();
         string jsonString = JsonUtility.ToJson(save);
-        //SaveExtern(jsonString);
+        SaveExtern(jsonString);
+    }
+    public void Load()
+    {
+        LoadExtern();
     }
 
     public void SetPlayerInfo(string value)
     {
         save = JsonUtility.FromJson<Save>(value);
-        loadInfo.text = save.level.ToString();
+        OnSaveLoaded?.Invoke();
     }
 
     private void SaveScene() => instance.save.level = SceneManager.GetActiveScene().buildIndex;

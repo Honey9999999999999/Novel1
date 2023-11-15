@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
@@ -7,8 +8,7 @@ using UnityEngine.UI;
 
 public class Yandex : MonoBehaviour
 {
-    [DllImport("__Internal")]
-    private static extern void Hello();
+    public static event Action Autorizeted;
 
     [DllImport("__Internal")]
     private static extern void GiveMePlayerData();
@@ -16,9 +16,10 @@ public class Yandex : MonoBehaviour
     [SerializeField] Text _nameText;
     [SerializeField] RawImage _photo;
 
-    public void HelloButton()
+    public void AutorizeteButton()
     {
         GiveMePlayerData();
+        Autorizeted?.Invoke();
     }
 
     public void SetName(string name)
