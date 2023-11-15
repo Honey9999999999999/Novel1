@@ -2,6 +2,7 @@ using Fungus;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class MenuButton : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class MenuButton : MonoBehaviour
 
     public void Toggle()
     {
+        var saveManager = FungusManager.Instance.SaveManager;
         menu.SetActive(!menu.activeSelf);
 
         if (dialogPanels.Count > 0)
@@ -21,15 +23,5 @@ public class MenuButton : MonoBehaviour
             {
                 panel.SetActive(!menu.activeSelf);
             }
-
-        if(flowchart != null)
-            if (menu.activeSelf)
-            {
-                activeBlock = flowchart.SelectedBlock;
-                activeCommand = activeBlock.ActiveCommand.CommandIndex;
-                flowchart.SelectedBlock.Stop();
-            }
-            else
-                StartCoroutine(activeBlock.Execute(activeCommand));
     }
 }

@@ -720,7 +720,7 @@ GameObject:
   - component: {fileID: 1728157403846783198}
   - component: {fileID: 5433720094714692744}
   - component: {fileID: 6655875932969404912}
-  - component: {fileID: 5508997329909544574}
+  - component: {fileID: 9182602872536500338}
   m_Layer: 5
   m_Name: Save
   m_TagString: Untagged
@@ -830,8 +830,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5508997329909544574}
-        m_TargetAssemblyTypeName: Saver, Assembly-CSharp
+      - m_Target: {fileID: 9182602872536500338}
+        m_TargetAssemblyTypeName: SaveManager, Assembly-CSharp
         m_MethodName: Save
         m_Mode: 1
         m_Arguments:
@@ -842,7 +842,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &5508997329909544574
+--- !u!114 &9182602872536500338
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -851,7 +851,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6600769518369585994}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2a90d7e8c337b9b459d39071bf013e61, type: 3}
+  m_Script: {fileID: 11500000, guid: e113309cc185e8748ad95377e55706ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &6726232856719760821
