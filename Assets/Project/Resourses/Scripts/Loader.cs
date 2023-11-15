@@ -7,7 +7,7 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Button))]
 public class Loader : MonoBehaviour
 {
-    private void OnEnable()
+    private void Start()
     {
         Progress.instance.OnSaveLoaded += CheckSaves;
     }

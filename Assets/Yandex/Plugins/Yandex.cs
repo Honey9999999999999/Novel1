@@ -8,8 +8,6 @@ using UnityEngine.UI;
 
 public class Yandex : MonoBehaviour
 {
-    public static event Action Autorizeted;
-
     [DllImport("__Internal")]
     private static extern void GiveMePlayerData();
 
@@ -19,7 +17,6 @@ public class Yandex : MonoBehaviour
     public void AutorizeteButton()
     {
         GiveMePlayerData();
-        Autorizeted?.Invoke();
     }
 
     public void SetName(string name)

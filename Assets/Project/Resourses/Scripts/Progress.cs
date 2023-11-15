@@ -28,8 +28,9 @@ public class PlayerInfo
 
 public class Progress : MonoBehaviour
 {
-    public Save save;
     public event Action OnSaveLoaded;
+
+    public Save save;    
 
     [DllImport("__Internal")]
     private static extern void SaveExtern(string data);
@@ -65,6 +66,7 @@ public class Progress : MonoBehaviour
 
     public void SetPlayerInfo(string value)
     {
+        Debug.Log(value);
         save = JsonUtility.FromJson<Save>(value);
         OnSaveLoaded?.Invoke();
     }
