@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: MainHero
-  nameColor: {r: 0.09803921, g: 0.6784314, b: 0.34231874, a: 1}
+  nameColor: {r: 0.5764706, g: 0.18823531, b: 0.60784316, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: bcc00d71384aace40beecda15f2b1384, type: 3}
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Honey
-  nameColor: {r: 0.6792453, g: 0.0993236, b: 0.0993236, a: 1}
+  nameColor: {r: 0.9490197, g: 0.9568628, b: 0.9490197, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: c22572a7fd9e1b14ab5951652dbf35fa, type: 3}
@@ -255,7 +255,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Van1exx
-  nameColor: {r: 0.045457203, g: 0.93333334, b: 0, a: 1}
+  nameColor: {r: 0.5411765, g: 0.121568635, b: 0.3647059, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: b4a1108261080af44bddf0b9d18d191b, type: 3}
@@ -310,7 +310,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Everyone
-  nameColor: {r: 0, g: 1, b: 0.61524796, a: 1}
+  nameColor: {r: 0.76470596, g: 0.3921569, b: 0.70980394, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: cdeee9df30b7b5747bc8ae50f9634633, type: 3}
@@ -346,6 +346,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 4555816462464173384}
   - {fileID: 6596732111120448641}
   - {fileID: 7718003628013566329}
   - {fileID: 7175958243721779395}
@@ -358,6 +359,58 @@ Transform:
   - {fileID: 5222377375340782870}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5545776386873152410
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4555816462464173384}
+  - component: {fileID: 3130615760462673541}
+  m_Layer: 0
+  m_Name: Mentor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4555816462464173384
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5545776386873152410}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -40.950867, y: -3.6760044, z: -199.79097}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4796188338411136495}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3130615760462673541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5545776386873152410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: "\u0421\u0442\u0430\u043D\u0438\u0441\u043B\u0430\u0432 \u0416\u0443\u0440\u0430\u0432\u043B\u0451\u0432"
+  nameColor: {r: 0.9568628, g: 0.7176471, b: 0.14901961, a: 1}
+  soundEffect: {fileID: 0}
+  portraits:
+  - {fileID: 21300000, guid: bcae0e73ed13ec74289cb320b498306a, type: 3}
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: Vondarm - Main Giga Brain
 --- !u!1 &7490746675587723423
 GameObject:
   m_ObjectHideFlags: 0
@@ -455,7 +508,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Somebody
-  nameColor: {r: 0.042452812, g: 0.9370384, b: 1, a: 1}
+  nameColor: {r: 0.87843144, g: 0.6784314, b: 0.8470589, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: cdeee9df30b7b5747bc8ae50f9634633, type: 3}
@@ -507,7 +560,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Vondarm
-  nameColor: {r: 0.9339623, g: 0.84623975, b: 0, a: 1}
+  nameColor: {r: 0.7058824, g: 0.7019608, b: 0.6666667, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: 461c16a8d8359d64fb3bfbb889953e56, type: 3}
@@ -560,7 +613,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Joly
-  nameColor: {r: 1, g: 0.25, b: 0.6463479, a: 1}
+  nameColor: {r: 0.28627452, g: 0.3803922, b: 0.54901963, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: e6d83e8064315334e9b661b73dd165f2, type: 3}

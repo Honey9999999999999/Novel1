@@ -291,6 +291,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 7297122654306894205, guid: 62659a45737279a45b245366aa81517c, type: 3}
+      propertyPath: audioMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7297122654306894205, guid: 62659a45737279a45b245366aa81517c, type: 3}
+      propertyPath: inputSound
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7297122654306894205, guid: 62659a45737279a45b245366aa81517c, type: 3}
+      propertyPath: soundEffect
+      value: 
+      objectReference: {fileID: 8300000, guid: f2c4e7d57302a174a9b3d57712177ff4, type: 3}
     - target: {fileID: 7847556779588591193, guid: 62659a45737279a45b245366aa81517c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
