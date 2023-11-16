@@ -627,7 +627,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 0.67203903, y: -102.88025}
+  scrollPos: {x: 775.838, y: -124.26074}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 472
@@ -639,9 +639,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 243279866}
-  selectedCommands:
-  - {fileID: 243280069}
+  - {fileID: 243279927}
+  selectedCommands: []
   variables:
   - {fileID: 243279805}
   - {fileID: 243279820}
@@ -718,7 +717,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 71.01108
+    x: 72.50362
     y: 277.3446
     width: 112.686584
     height: 40
@@ -10104,6 +10103,10 @@ PrefabInstance:
       value: HeroNameSetter
       objectReference: {fileID: 0}
     - target: {fileID: 8142945212023063971, guid: 6a36c2fcb25b57141805fb61cce0654e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 924284310}
+    - target: {fileID: 8142945212023063971, guid: 6a36c2fcb25b57141805fb61cce0654e, type: 3}
       propertyPath: playerNames.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -10411,6 +10414,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6340121291215831922, guid: afa7216e22600c5469afd2dc5494c677, type: 3}
+      propertyPath: flowchart
+      value: 
+      objectReference: {fileID: 243279810}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

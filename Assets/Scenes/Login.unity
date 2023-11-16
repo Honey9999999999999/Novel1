@@ -306,7 +306,7 @@ MonoBehaviour:
   scrollPos: {x: 127.45053, y: 13.629176}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 400
+  blockViewHeight: 549
   zoom: 0.8800001
   scrollViewRect:
     serializedVersion: 2
@@ -315,7 +315,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 448598747}
+  - {fileID: 448598753}
   selectedCommands: []
   variables:
   - {fileID: 448598752}
@@ -417,7 +417,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 213.6842
+    x: 214.82057
     y: 133
     width: 70.454544
     height: 40
@@ -1655,6 +1655,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6340121291215831922, guid: afa7216e22600c5469afd2dc5494c677, type: 3}
+      propertyPath: flowchart
+      value: 
+      objectReference: {fileID: 448598748}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

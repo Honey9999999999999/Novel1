@@ -1,4 +1,5 @@
 using Fungus;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,7 +9,8 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Button))]
 public class SaveManager : MonoBehaviour
 {
-    [SerializeField] private Flowchart flowchart;
+    public static event Action OnVarLoaded;
+
     private void Start()
     {
         Progress.instance.OnSaveLoaded += CheckSaves;
@@ -30,7 +32,15 @@ public class SaveManager : MonoBehaviour
     }
     public void LoadVariables()
     {
-        flowchart.SetStringVariable("playerName", Progress.instance.save.playerInfo.playerName);
+        Flowchart flowchart = FindObjectOfType<Flowchart>();
+
+        if (flowchart == null)
+            throw new Exception("Flowchart is not find");
+
+        if(Progress.instance.save.playerInfo.playerName.Equals(""))
+            flowchart.SetStringVariable("playerName", "Main Hero");
+        else
+            flowchart.SetStringVariable("playerName", Progress.instance.save.playerInfo.playerName);
 
         flowchart.SetIntegerVariable("C_Level", Progress.instance.save.playerInfo.cSharp);
         flowchart.SetIntegerVariable("Unity_Level", Progress.instance.save.playerInfo.unity);
@@ -39,6 +49,8 @@ public class SaveManager : MonoBehaviour
         flowchart.SetIntegerVariable("Morgan_Friendhsip", Progress.instance.save.playerInfo.morgan);
         //flowchart.SetIntegerVariable("playerName", Progress.instance.save.playerInfo.vondarm);
         flowchart.SetIntegerVariable("Joly_Friendhsip", Progress.instance.save.playerInfo.joly);
+
+        OnVarLoaded?.Invoke();
     }
 
     public void SaveScene() => Progress.instance.save.level = SceneManager.GetActiveScene().buildIndex;

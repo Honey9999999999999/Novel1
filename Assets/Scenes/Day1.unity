@@ -576,7 +576,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1085.1948
     y: 302.30026
-    width: 78.26087
+    width: 74.324326
     height: 40
   tint: {r: 0.19824673, g: 0.764151, b: 0.3305643, a: 1}
   useCustomTint: 1
@@ -607,11 +607,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1083.6783, y: -9.320978}
+  scrollPos: {x: 1093.812, y: 37.047012}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 580
-  zoom: 0.45999998
+  zoom: 0.37
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -622,12 +622,6 @@ MonoBehaviour:
   - {fileID: 720610765}
   selectedCommands:
   - {fileID: 720610924}
-  - {fileID: 720610918}
-  - {fileID: 720610923}
-  - {fileID: 720610922}
-  - {fileID: 720610921}
-  - {fileID: 720610920}
-  - {fileID: 720610919}
   variables:
   - {fileID: 720610798}
   - {fileID: 720610705}
@@ -692,7 +686,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -720.7498
     y: 361.78357
-    width: 73.91304
+    width: 77.02702
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -860,7 +854,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -582.8201
     y: 282.41058
-    width: 97.82609
+    width: 104.054054
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -930,7 +924,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -438.32532
     y: 282.7223
-    width: 117.391304
+    width: 120.27027
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1198,7 +1192,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -284.92218
     y: 207.97171
-    width: 160.86957
+    width: 166.21622
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1283,7 +1277,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -47.826183
     y: 283.34003
-    width: 69.565216
+    width: 74.324326
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1494,7 +1488,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -931.20966
     y: 214.79906
-    width: 123.91305
+    width: 136.48648
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1616,7 +1610,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -912.8754
     y: 362.1287
-    width: 95.652176
+    width: 95.945946
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1990,7 +1984,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -918.6859
     y: 421.0956
-    width: 108.695656
+    width: 112.16216
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2191,7 +2185,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -907.1034
     y: 302.7232
-    width: 84.78261
+    width: 82.432434
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3383,7 +3377,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -740.58185
     y: 215.2787
-    width: 106.52174
+    width: 109.45946
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5124,7 +5118,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -264.31897
     y: 362.21152
-    width: 106.52174
+    width: 109.45946
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5550,7 +5544,7 @@ MonoBehaviour:
       textureValue: {fileID: 0}
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
-    variableKey: 
+    variableKey: Vondarm_Friendship
   saveReturnValue: 0
   returnValueVariableKey: 
   returnValueType: System.Void
@@ -5595,7 +5589,7 @@ MonoBehaviour:
       textureValue: {fileID: 0}
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
-    variableKey: 
+    variableKey: Joly_Friendship
   saveReturnValue: 0
   returnValueVariableKey: 
   returnValueType: System.Void
@@ -5640,7 +5634,7 @@ MonoBehaviour:
       textureValue: {fileID: 0}
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
-    variableKey: 
+    variableKey: Morgan_Friendhsip
   saveReturnValue: 0
   returnValueVariableKey: 
   returnValueType: System.Void
@@ -5685,7 +5679,7 @@ MonoBehaviour:
       textureValue: {fileID: 0}
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
-    variableKey: 
+    variableKey: Blender_Level
   saveReturnValue: 0
   returnValueVariableKey: 
   returnValueType: System.Void
@@ -5730,7 +5724,7 @@ MonoBehaviour:
       textureValue: {fileID: 0}
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
-    variableKey: 
+    variableKey: Unity_Level
   saveReturnValue: 0
   returnValueVariableKey: 
   returnValueType: System.Void
@@ -5775,7 +5769,7 @@ MonoBehaviour:
       textureValue: {fileID: 0}
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
-    variableKey: 
+    variableKey: C_Level
   saveReturnValue: 0
   returnValueVariableKey: 
   returnValueType: System.Void
@@ -5820,7 +5814,7 @@ MonoBehaviour:
       textureValue: {fileID: 0}
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
-    variableKey: 
+    variableKey: playerName
   saveReturnValue: 0
   returnValueVariableKey: 
   returnValueType: System.Void
@@ -5937,6 +5931,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HeroNameSetter
       objectReference: {fileID: 0}
+    - target: {fileID: 8142945212023063971, guid: 6a36c2fcb25b57141805fb61cce0654e, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 141849994}
     - target: {fileID: 8142945212023063971, guid: 6a36c2fcb25b57141805fb61cce0654e, type: 3}
       propertyPath: character
       value: 
