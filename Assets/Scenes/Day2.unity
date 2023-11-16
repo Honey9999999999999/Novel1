@@ -2942,7 +2942,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 0
   key: Morgan_Friendhsip
-  value: 1
+  value: 0
 --- !u!114 &243279975
 MonoBehaviour:
   m_ObjectHideFlags: 2
