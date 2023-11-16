@@ -26,7 +26,7 @@ public class SaveManager : MonoBehaviour
 
     public void Load()
     {
-        SceneManager.LoadScene(Progress.instance.save.level);        
+        SceneManager.LoadScene(Progress.instance.save.level);
     }
     public void LoadVariables()
     {
@@ -36,9 +36,9 @@ public class SaveManager : MonoBehaviour
         flowchart.SetIntegerVariable("Unity_Level", Progress.instance.save.playerInfo.unity);
         flowchart.SetIntegerVariable("Blender_Level", Progress.instance.save.playerInfo.blender);
 
-        //flowchart.SetIntegerVariable("playerName", Progress.instance.save.playerInfo.morgan);
+        flowchart.SetIntegerVariable("Morgan_Friendhsip", Progress.instance.save.playerInfo.morgan);
         //flowchart.SetIntegerVariable("playerName", Progress.instance.save.playerInfo.vondarm);
-        //flowchart.SetIntegerVariable("playerName", Progress.instance.save.playerInfo.joly);
+        flowchart.SetIntegerVariable("Joly_Friendhsip", Progress.instance.save.playerInfo.joly);
     }
 
     public void SaveScene() => Progress.instance.save.level = SceneManager.GetActiveScene().buildIndex;
@@ -46,6 +46,10 @@ public class SaveManager : MonoBehaviour
     public void SaveCSharp(int value) => Progress.instance.save.playerInfo.cSharp = value;
     public void SaveUnity(int value) => Progress.instance.save.playerInfo.unity = value;
     public void SaveBlender(int value) => Progress.instance.save.playerInfo.blender = value;
+    public void SaveMorgan(int value) => Progress.instance.save.playerInfo.morgan = value;
+    public void SaveJoly(int value) => Progress.instance.save.playerInfo.joly = value;
+    public void SaveVondarm(int value) => Progress.instance.save.playerInfo.vondarm = value;
+    
 
     public void SaveReset()
     {

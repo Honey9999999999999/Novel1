@@ -168,50 +168,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &273385711
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 273385715}
-  - component: {fileID: 273385716}
-  m_Layer: 0
-  m_Name: NameSaver
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &273385715
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 273385711}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1205, y: 450, z: -13.6167755}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &273385716
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 273385711}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f070f2a2fdb374643954bb705afa27ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &448598744
 GameObject:
   m_ObjectHideFlags: 0
@@ -320,7 +276,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 104
     y: 136
-    width: 76.31578
+    width: 78.40909
     height: 40
   tint: {r: 0.16794233, g: 0.9622642, b: 0.3254877, a: 1}
   useCustomTint: 1
@@ -347,11 +303,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 165.3926, y: -18.6102}
+  scrollPos: {x: 127.45053, y: 13.629176}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.7600002
+  zoom: 0.8800001
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -360,8 +316,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 448598747}
-  selectedCommands:
-  - {fileID: 448598764}
+  selectedCommands: []
   variables:
   - {fileID: 448598752}
   description: 
@@ -464,7 +419,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 213.6842
     y: 133
-    width: 69.73683
+    width: 70.454544
     height: 40
   tint: {r: 1, g: 0.3285867, b: 0.19339621, a: 1}
   useCustomTint: 1
@@ -608,7 +563,7 @@ MonoBehaviour:
     booleanVal: 0
 --- !u!114 &448598762
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -653,7 +608,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &448598763
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -681,7 +636,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &448598764
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -797,7 +752,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 273385716}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Assets.Project.Resourses.Scripts.PlayerDataGetter,
           Assembly-CSharp
         m_MethodName: GetName
@@ -6348,5 +6303,4 @@ SceneRoots:
   - {fileID: 5962240425626097447}
   - {fileID: 448598749}
   - {fileID: 1208395642}
-  - {fileID: 273385715}
   - {fileID: 2142340140}

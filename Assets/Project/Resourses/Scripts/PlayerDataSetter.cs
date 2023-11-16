@@ -7,7 +7,6 @@ namespace Assets.Project.Resourses.Scripts
 {
     public class PlayerDataSetter : MonoBehaviour
     {
-        [SerializeField] private Character character;
         [SerializeField] private List<Text> playerNames;
         
 
@@ -18,8 +17,6 @@ namespace Assets.Project.Resourses.Scripts
 
         public void SetName() 
         {
-            character.GetComponent<Character>().SetNameText(Progress.instance.save.playerInfo.playerName);
-
             foreach (var playerName in playerNames)
             {
                 playerName.text = Progress.instance.save.playerInfo.playerName;
