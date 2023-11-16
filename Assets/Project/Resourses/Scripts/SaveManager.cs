@@ -8,6 +8,7 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Button))]
 public class SaveManager : MonoBehaviour
 {
+    [SerializeField] private Flowchart flowchart;
     private void Start()
     {
         Progress.instance.OnSaveLoaded += CheckSaves;
@@ -29,8 +30,6 @@ public class SaveManager : MonoBehaviour
     }
     public void LoadVariables()
     {
-        Flowchart flowchart = FindObjectOfType<Flowchart>();
-
         flowchart.SetStringVariable("playerName", Progress.instance.save.playerInfo.playerName);
 
         flowchart.SetIntegerVariable("C_Level", Progress.instance.save.playerInfo.cSharp);
