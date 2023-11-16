@@ -17,6 +17,8 @@ public class Save
 [Serializable]
 public class PlayerInfo
 {
+    public string playerName;
+
     public int cSharp;
     public int blender;
     public int unity;
@@ -55,21 +57,21 @@ public class Progress : MonoBehaviour
 
     public void Save()
     {
-        SaveScene();
         string jsonString = JsonUtility.ToJson(save);
-        SaveExtern(jsonString);
+        //SaveExtern(jsonString);
     }
     public void Load()
     {
-        LoadExtern();
+        //LoadExtern();
     }
 
     public void SetPlayerInfo(string value)
     {
-        Debug.Log(value);
         save = JsonUtility.FromJson<Save>(value);
         OnSaveLoaded?.Invoke();
     }
 
-    private void SaveScene() => instance.save.level = SceneManager.GetActiveScene().buildIndex;
+    
+
+    
 }

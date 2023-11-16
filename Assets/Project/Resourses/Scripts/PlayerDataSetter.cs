@@ -18,11 +18,11 @@ namespace Assets.Project.Resourses.Scripts
 
         public void SetName() 
         {
-            character.GetComponent<Character>().SetNameText(MainCharacterData.namePlayer);
+            character.GetComponent<Character>().SetNameText(Progress.instance.save.playerInfo.playerName);
 
             foreach (var playerName in playerNames)
             {
-                playerName.text = MainCharacterData.namePlayer;
+                playerName.text = Progress.instance.save.playerInfo.playerName;
             }
         }
     }

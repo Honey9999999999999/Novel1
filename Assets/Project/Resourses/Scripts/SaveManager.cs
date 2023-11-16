@@ -8,11 +8,9 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Button))]
 public class SaveManager : MonoBehaviour
 {
-    Fungus.SaveManager saveManager;
     private void Start()
     {
         Progress.instance.OnSaveLoaded += CheckSaves;
-        saveManager = FungusManager.Instance.SaveManager;
     }
     public void CheckSaves()
     {
@@ -22,16 +20,46 @@ public class SaveManager : MonoBehaviour
 
     public void Save()
     {
-        saveManager.AddSavePoint("JOJO", "Kurwa");
-        saveManager.Save("JOJO");
         Progress.instance.Save();
     }
 
     public void Load()
     {
-        saveManager.Load("JOJO");
-        Debug.Log(saveManager.NumSavePoints);
-        Debug.Log(saveManager.NumRewoundSavePoints);
-        SceneManager.LoadScene(Progress.instance.save.level);
+        SceneManager.LoadScene(Progress.instance.save.level);        
+    }
+    public void LoadVariables()
+    {
+        Flowchart flowchart = FindObjectOfType<Flowchart>();
+
+        flowchart.SetStringVariable("playerName", Progress.instance.save.playerInfo.playerName);
+
+        flowchart.SetIntegerVariable("C_Level", Progress.instance.save.playerInfo.cSharp);
+        flowchart.SetIntegerVariable("Unity_Level", Progress.instance.save.playerInfo.unity);
+        flowchart.SetIntegerVariable("Blender_Level", Progress.instance.save.playerInfo.blender);
+
+        //flowchart.SetIntegerVariable("playerName", Progress.instance.save.playerInfo.morgan);
+        //flowchart.SetIntegerVariable("playerName", Progress.instance.save.playerInfo.vondarm);
+        //flowchart.SetIntegerVariable("playerName", Progress.instance.save.playerInfo.joly);
+    }
+
+    public void SaveScene() => Progress.instance.save.level = SceneManager.GetActiveScene().buildIndex;
+    public void SaveName(string name) => Progress.instance.save.playerInfo.playerName = name;
+    public void SaveCSharp(int value) => Progress.instance.save.playerInfo.cSharp = value;
+    public void SaveUnity(int value) => Progress.instance.save.playerInfo.unity = value;
+    public void SaveBlender(int value) => Progress.instance.save.playerInfo.blender = value;
+
+    public void SaveReset()
+    {
+        Progress.instance.save.level = 0;
+
+        Progress.instance.save.playerInfo.cSharp = 0;
+        Progress.instance.save.playerInfo.blender = 0;
+        Progress.instance.save.playerInfo.unity = 0;
+
+        Progress.instance.save.playerInfo.morgan = 0;
+        Progress.instance.save.playerInfo.vondarm = 0;
+        Progress.instance.save.playerInfo.joly = 0;
+
+        Save();
     }
 }

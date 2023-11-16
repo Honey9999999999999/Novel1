@@ -10,9 +10,6 @@ public class MenuButton : MonoBehaviour
     [SerializeField] private GameObject menu;
     [SerializeField] private Flowchart flowchart;
 
-    private Block activeBlock;
-    private int activeCommand;
-
     public void Toggle()
     {
         var saveManager = FungusManager.Instance.SaveManager;
@@ -23,5 +20,7 @@ public class MenuButton : MonoBehaviour
             {
                 panel.SetActive(!menu.activeSelf);
             }
+
+        
     }
 }

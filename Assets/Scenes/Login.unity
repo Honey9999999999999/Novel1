@@ -212,7 +212,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f070f2a2fdb374643954bb705afa27ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: {fileID: 1996942191}
 --- !u!1 &448598744
 GameObject:
   m_ObjectHideFlags: 0
@@ -231,12 +230,14 @@ GameObject:
   - component: {fileID: 448598751}
   - component: {fileID: 448598755}
   - component: {fileID: 448598754}
-  - component: {fileID: 448598756}
   - component: {fileID: 448598757}
   - component: {fileID: 448598759}
   - component: {fileID: 448598758}
   - component: {fileID: 448598761}
   - component: {fileID: 448598760}
+  - component: {fileID: 448598762}
+  - component: {fileID: 448598763}
+  - component: {fileID: 448598764}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -319,7 +320,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 104
     y: 136
-    width: 77
+    width: 76.31578
     height: 40
   tint: {r: 0.16794233, g: 0.9622642, b: 0.3254877, a: 1}
   useCustomTint: 1
@@ -328,6 +329,8 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 448598746}
   commandList:
+  - {fileID: 448598763}
+  - {fileID: 448598764}
   - {fileID: 448598745}
   - {fileID: 448598758}
   suppressAllAutoSelections: 0
@@ -344,19 +347,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 44.59449, y: -63.755775}
+  scrollPos: {x: 165.3926, y: -18.6102}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.7600002
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 448598747}
+  selectedCommands:
+  - {fileID: 448598764}
   variables:
   - {fileID: 448598752}
   description: 
@@ -457,9 +462,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 215
+    x: 213.6842
     y: 133
-    width: 71
+    width: 69.73683
     height: 40
   tint: {r: 1, g: 0.3285867, b: 0.19339621, a: 1}
   useCustomTint: 1
@@ -473,7 +478,7 @@ MonoBehaviour:
   - {fileID: 448598751}
   - {fileID: 448598759}
   - {fileID: 448598757}
-  - {fileID: 448598756}
+  - {fileID: 448598762}
   - {fileID: 448598754}
   suppressAllAutoSelections: 0
 --- !u!114 &448598754
@@ -510,22 +515,6 @@ MonoBehaviour:
   parentBlock: {fileID: 448598753}
   suppressBlockAutoSelect: 0
   targetButton: {fileID: 758143632}
---- !u!114 &448598756
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 448598744}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bef7966140464bd5a3ef4da2ff236b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 6
-  indentLevel: 0
-  key: playerName
-  variable: {fileID: 448598752}
 --- !u!114 &448598757
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -617,6 +606,107 @@ MonoBehaviour:
   interactableState:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &448598762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448598744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 12
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 2142340142}
+  targetComponentAssemblyName: SaveManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: SaveManager
+  targetMethod: SaveName
+  targetMethodText: 'SaveName (String): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.String
+      intValue: 0
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: playerName
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &448598763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448598744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 13
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 2142340142}
+  targetComponentAssemblyName: SaveManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: SaveManager
+  targetMethod: SaveScene
+  targetMethodText: 'SaveScene (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &448598764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448598744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 14
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 2142340142}
+  targetComponentAssemblyName: SaveManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: SaveManager
+  targetMethod: Save
+  targetMethodText: 'Save (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!1 &758143628
 GameObject:
   m_ObjectHideFlags: 0
@@ -1615,6 +1705,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: afa7216e22600c5469afd2dc5494c677, type: 3}
+--- !u!1 &2142340142 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5926335369494065134, guid: afa7216e22600c5469afd2dc5494c677, type: 3}
+  m_PrefabInstance: {fileID: 2142340140}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &63108238752021567
 MonoBehaviour:
   m_ObjectHideFlags: 0

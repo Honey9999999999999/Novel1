@@ -495,8 +495,7 @@ namespace Fungus.EditorUtils
 
             if (Selection.activeGameObject != null)
             {
-                var fs = Selection.activeGameObject.GetComponent<Flowchart>();
-                if (fs != null)
+                if (Selection.activeGameObject.TryGetComponent<Flowchart>(out var fs))
                 {
                     fungusState.SelectedFlowchart = fs;
                 }

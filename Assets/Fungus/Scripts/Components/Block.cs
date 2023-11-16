@@ -357,10 +357,7 @@ namespace Fungus
             activeCommand = null;
             BlockSignals.DoBlockEnd(this);
 
-            if (lastOnCompleteAction != null)
-            {
-                lastOnCompleteAction();
-            }
+            lastOnCompleteAction?.Invoke();
             lastOnCompleteAction = null;
         }
 
