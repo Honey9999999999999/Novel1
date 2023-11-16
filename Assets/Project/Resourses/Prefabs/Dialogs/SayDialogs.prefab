@@ -134,6 +134,14 @@ PrefabInstance:
       propertyPath: m_PresetInfoIsWorld
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8850014493304757094, guid: 4b289e0ee42b3b04db62349ba0624a7c, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 79197ecfbc3a4294a89ce589dac02cf2, type: 3}
+    - target: {fileID: 8850014493304757094, guid: 4b289e0ee42b3b04db62349ba0624a7c, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -236,6 +244,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DiscordMidleDialog
       objectReference: {fileID: 0}
+    - target: {fileID: 7236035943578899975, guid: 00057ffc1e9c22d4e98e002317349c13, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -254,6 +266,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1592999986514542763}
     m_Modifications:
+    - target: {fileID: 1565185172388400316, guid: 36ccbc94b6bad8b438ee8a3945cb7948, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 79197ecfbc3a4294a89ce589dac02cf2, type: 3}
+    - target: {fileID: 1565185172388400316, guid: 36ccbc94b6bad8b438ee8a3945cb7948, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5327492532254733788, guid: 36ccbc94b6bad8b438ee8a3945cb7948, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5951685764600203984, guid: 36ccbc94b6bad8b438ee8a3945cb7948, type: 3}
       propertyPath: m_Pivot.x
       value: 0

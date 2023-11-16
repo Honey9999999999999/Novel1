@@ -19,10 +19,10 @@ public class MainMenuMover : MonoBehaviour
         currentMousePos = Input.mousePosition;
         if (currentMousePos != lastMousePos)
         {
-            targetPosition += (lastMousePos - currentMousePos) * moveSpeed * Time.deltaTime;
+            targetPosition += moveSpeed * Time.deltaTime * (lastMousePos - currentMousePos);
             
             lastMousePos = currentMousePos;
         }
-        transform.position = Vector3.Lerp(transform.position, targetPosition, moveSpeed * Time.deltaTime);
+        transform.position = Vector3.Lerp(transform.position, targetPosition, Time.deltaTime);
     }
 }

@@ -59,19 +59,18 @@ public class Progress : MonoBehaviour
     {
         string jsonString = JsonUtility.ToJson(save);
         //SaveExtern(jsonString);
+        Debug.Log("Saving success");
     }
     public void Load()
     {
         //LoadExtern();
+        Debug.Log("Loading success");
     }
 
     public void SetPlayerInfo(string value)
     {
+        Debug.Log(value);
         save = JsonUtility.FromJson<Save>(value);
         OnSaveLoaded?.Invoke();
-    }
-
-    
-
-    
+    }    
 }

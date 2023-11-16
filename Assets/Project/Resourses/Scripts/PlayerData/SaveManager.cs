@@ -67,6 +67,8 @@ public class SaveManager : MonoBehaviour
     {
         Progress.instance.save.level = 0;
 
+        Progress.instance.save.playerInfo.playerName = "Main Hero";
+
         Progress.instance.save.playerInfo.cSharp = 0;
         Progress.instance.save.playerInfo.blender = 0;
         Progress.instance.save.playerInfo.unity = 0;
