@@ -11,18 +11,19 @@ public class MainMenuMover : MonoBehaviour
     public float moveSpeed = 5f;
     private void Start()
     {
-        lastMousePos = Input.mousePosition;
         targetPosition = transform.position;
     }
     void Update()
-    {
+    {        
         currentMousePos = Input.mousePosition;
         if (currentMousePos != lastMousePos)
         {
-            targetPosition += moveSpeed * Time.deltaTime * (lastMousePos - currentMousePos);
-            
-            lastMousePos = currentMousePos;
+            Vector3 vectorDiff = lastMousePos - currentMousePos;
+            float diff = vectorDiff.x * vectorDiff.x + vectorDiff.y * vectorDiff.y + vectorDiff.z * vectorDiff.z;
+
+            targetPosition +=  moveSpeed * Time.deltaTime * ((diff > 50000) ? Vector3.zero : vectorDiff);            
         }
+        lastMousePos = currentMousePos;
         transform.position = Vector3.Lerp(transform.position, targetPosition, Time.deltaTime);
     }
 }
