@@ -44,7 +44,7 @@ public class Yandex : MonoBehaviour
             _photo.texture = ((DownloadHandlerTexture)request.downloadHandler).texture;
     }
 
-    public void ShowAdv()
+    public static void ShowAdv()
     {
         ShowAdvExtern();
     }

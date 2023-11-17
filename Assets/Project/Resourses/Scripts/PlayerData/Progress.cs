@@ -58,12 +58,12 @@ public class Progress : MonoBehaviour
     public void Save()
     {
         string jsonString = JsonUtility.ToJson(save);
-        //SaveExtern(jsonString);
+        SaveExtern(jsonString);
         Debug.Log("Saving success");
     }
     public void Load()
     {
-        //LoadExtern();
+        LoadExtern();
         Debug.Log("Loading success");
     }
 

@@ -23,7 +23,7 @@ mergeInto(LibraryManager.library, {
     ysdk.adv.showFullscreenAdv({
     callbacks: {
         onClose: function(wasShown) {
-          // some action after close
+          myGameInstance.SendMessage('FlowStarter', 'Activate');
         },
         onError: function(error) {
           // some action on error
