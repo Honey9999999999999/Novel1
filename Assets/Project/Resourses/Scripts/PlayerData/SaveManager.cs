@@ -46,9 +46,9 @@ public class SaveManager : MonoBehaviour
         flowchart.SetIntegerVariable("Unity_Level", Progress.instance.save.playerInfo.unity);
         flowchart.SetIntegerVariable("Blender_Level", Progress.instance.save.playerInfo.blender);
 
-        flowchart.SetIntegerVariable("Morgan_Friendhsip", Progress.instance.save.playerInfo.morgan);
-        //flowchart.SetIntegerVariable("playerName", Progress.instance.save.playerInfo.vondarm);
-        flowchart.SetIntegerVariable("Joly_Friendhsip", Progress.instance.save.playerInfo.joly);
+        flowchart.SetIntegerVariable("Morgan_Friendship", Progress.instance.save.playerInfo.morgan);
+        flowchart.SetIntegerVariable("Vondarm_Friendship", Progress.instance.save.playerInfo.vondarm);
+        flowchart.SetIntegerVariable("Joly_Friendship", Progress.instance.save.playerInfo.joly);
 
         OnVarLoaded?.Invoke();
     }
