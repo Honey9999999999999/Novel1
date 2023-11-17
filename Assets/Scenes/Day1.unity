@@ -6476,6 +6476,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c630891cfa7f4f45996cdff2dbeaa13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  flowchart: {fileID: 720610686}
 --- !u!4 &1639533427
 Transform:
   m_ObjectHideFlags: 0

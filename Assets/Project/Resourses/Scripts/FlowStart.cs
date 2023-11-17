@@ -5,8 +5,9 @@ using UnityEngine;
 
 public class FlowStart : MonoBehaviour
 {
+    [SerializeField] private Flowchart flowchart;
     public void Activate()
     {
-        FindObjectOfType<Flowchart>().gameObject.SetActive(true);
+        flowchart.gameObject.SetActive(true);
     }
 }
