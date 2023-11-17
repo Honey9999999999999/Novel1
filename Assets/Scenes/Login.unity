@@ -194,6 +194,7 @@ GameObject:
   - component: {fileID: 448598762}
   - component: {fileID: 448598763}
   - component: {fileID: 448598764}
+  - component: {fileID: 448598765}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -276,7 +277,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 102.86364
     y: 136
-    width: 78.40909
+    width: 76.36363
     height: 40
   tint: {r: 0.16794233, g: 0.9622642, b: 0.3254877, a: 1}
   useCustomTint: 1
@@ -306,7 +307,7 @@ MonoBehaviour:
   scrollPos: {x: 127.45053, y: 13.629176}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 549
+  blockViewHeight: 381.8
   zoom: 0.8800001
   scrollViewRect:
     serializedVersion: 2
@@ -317,7 +318,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 448598753}
   selectedCommands:
-  - {fileID: 448598762}
+  - {fileID: 448598765}
   variables:
   - {fileID: 448598752}
   description: 
@@ -420,7 +421,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 214.82057
     y: 133
-    width: 70.454544
+    width: 71.81818
     height: 40
   tint: {r: 1, g: 0.3285867, b: 0.19339621, a: 1}
   useCustomTint: 1
@@ -435,6 +436,7 @@ MonoBehaviour:
   - {fileID: 448598759}
   - {fileID: 448598757}
   - {fileID: 448598762}
+  - {fileID: 448598765}
   - {fileID: 448598754}
   suppressAllAutoSelections: 0
 --- !u!114 &448598754
@@ -657,6 +659,34 @@ MonoBehaviour:
   targetComponentText: SaveManager
   targetMethod: Save
   targetMethodText: 'Save (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &448598765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448598744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 15
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 2142340141}
+  targetComponentAssemblyName: Yandex, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: Yandex
+  targetMethod: ShowAdv
+  targetMethodText: 'ShowAdv (): Void'
   methodParameters: []
   saveReturnValue: 0
   returnValueVariableKey: 
@@ -1665,6 +1695,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: afa7216e22600c5469afd2dc5494c677, type: 3}
+--- !u!1 &2142340141 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2638724987303661044, guid: afa7216e22600c5469afd2dc5494c677, type: 3}
+  m_PrefabInstance: {fileID: 2142340140}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2142340142 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5926335369494065134, guid: afa7216e22600c5469afd2dc5494c677, type: 3}

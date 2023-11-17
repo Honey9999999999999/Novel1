@@ -14,6 +14,9 @@ public class Yandex : MonoBehaviour
     [SerializeField] Text _nameText;
     [SerializeField] RawImage _photo;
 
+    [DllImport("__Internal")]
+    private static extern void ShowAdvExtern();
+
     public void AutorizeteButton()
     {
         GiveMePlayerData();
@@ -39,5 +42,10 @@ public class Yandex : MonoBehaviour
             Debug.Log(request.error);
         else
             _photo.texture = ((DownloadHandlerTexture)request.downloadHandler).texture;
+    }
+
+    public void ShowAdv()
+    {
+        ShowAdvExtern();
     }
 }
