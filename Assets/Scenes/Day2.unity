@@ -567,6 +567,7 @@ GameObject:
   - component: {fileID: 243280191}
   - component: {fileID: 243280190}
   - component: {fileID: 243280189}
+  - component: {fileID: 243280193}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -655,7 +656,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 494.27518, y: -59.435394}
+  scrollPos: {x: 934.6592, y: -15.204636}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
@@ -666,14 +667,16 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 243279927}
   selectedCommands: []
   variables:
+  - {fileID: 243279844}
   - {fileID: 243279805}
   - {fileID: 243279820}
   - {fileID: 243279819}
-  - {fileID: 243279844}
   - {fileID: 243279972}
+  - {fileID: 243280193}
   - {fileID: 243280040}
   description: 
   stepPause: 0
@@ -2841,7 +2844,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scope: 0
-  key: Morgan_Friendhsip
+  key: Morgan_Friendship
   value: 0
 --- !u!114 &243279975
 MonoBehaviour:
@@ -5093,7 +5096,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scope: 0
-  key: Joly_Friendhsip
+  key: Joly_Friendship
   value: 0
 --- !u!114 &243280041
 MonoBehaviour:
@@ -11628,6 +11631,21 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &243280193
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 243279761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  key: Vondarm_Friendship
+  value: 0
 --- !u!114 &286106442 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3130615760462673541, guid: 43b0cc66bf04fb7479ae4d80b943b6b8, type: 3}
