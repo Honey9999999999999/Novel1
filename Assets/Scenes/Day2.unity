@@ -335,7 +335,6 @@ GameObject:
   - component: {fileID: 243279917}
   - component: {fileID: 243279919}
   - component: {fileID: 243279927}
-  - component: {fileID: 243279921}
   - component: {fileID: 243279930}
   - component: {fileID: 243279931}
   - component: {fileID: 243279935}
@@ -568,6 +567,7 @@ GameObject:
   - component: {fileID: 243280190}
   - component: {fileID: 243280189}
   - component: {fileID: 243280193}
+  - component: {fileID: 243280194}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -659,7 +659,7 @@ MonoBehaviour:
   scrollPos: {x: 934.6592, y: -15.204636}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 280
+  blockViewHeight: 499
   zoom: 0.52
   scrollViewRect:
     serializedVersion: 2
@@ -1808,21 +1808,6 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
---- !u!114 &243279921
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 243279761}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 243279927}
-  suppressBlockAutoSelect: 0
-  waitForFrames: 1
 --- !u!114 &243279927
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1846,7 +1831,7 @@ MonoBehaviour:
   itemId: 0
   blockName: Start
   description: "\u0417\u043D\u0430\u043A\u043E\u043C\u0441\u0442\u0432\u043E"
-  eventHandler: {fileID: 243279921}
+  eventHandler: {fileID: 243280194}
   commandList:
   - {fileID: 243280132}
   - {fileID: 243280133}
@@ -11646,6 +11631,20 @@ MonoBehaviour:
   scope: 0
   key: Vondarm_Friendship
   value: 0
+--- !u!114 &243280194
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 243279761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ff5d850a887844fe87ae7d366d3ab5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 243279927}
+  suppressBlockAutoSelect: 0
 --- !u!114 &286106442 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3130615760462673541, guid: 43b0cc66bf04fb7479ae4d80b943b6b8, type: 3}
