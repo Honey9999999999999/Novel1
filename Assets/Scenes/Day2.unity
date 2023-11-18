@@ -574,7 +574,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &243279765
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -659,7 +659,7 @@ MonoBehaviour:
   scrollPos: {x: 934.6592, y: -15.204636}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 499
+  blockViewHeight: 472
   zoom: 0.52
   scrollViewRect:
     serializedVersion: 2
@@ -668,8 +668,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 243279927}
-  selectedCommands: []
+  - {fileID: 243279963}
+  selectedCommands:
+  - {fileID: 243279969}
   variables:
   - {fileID: 243279844}
   - {fileID: 243279805}
@@ -2786,7 +2787,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: d7cda1e8c1d6a0447816e36e33729718, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -12292,7 +12293,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 579790422653578892, guid: 2fd6f7d46d49e834fb86e1a92e829197, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
