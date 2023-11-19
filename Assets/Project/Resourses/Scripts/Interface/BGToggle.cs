@@ -20,7 +20,8 @@ public enum BG
     Valley,
     Black,
     HoneyLection,
-    MorganLection
+    MorganLection,
+    CSGame1
 }
 
 [Serializable]
