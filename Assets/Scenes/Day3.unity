@@ -534,11 +534,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 715.96735, y: -170.79816}
+  scrollPos: {x: 692.0554, y: -116.653656}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 472
-  zoom: 1
+  zoom: 0.6700003
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -546,9 +546,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 782994134}
-  selectedCommands:
-  - {fileID: 782994144}
+  - {fileID: 782993891}
+  selectedCommands: []
   variables:
   - {fileID: 782993864}
   - {fileID: 782993863}
@@ -688,7 +687,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -640.27545
     y: 276.8803
-    width: 77
+    width: 78.3582
     height: 40
   tint: {r: 0.19824673, g: 0.764151, b: 0.3305643, a: 1}
   useCustomTint: 1
@@ -737,9 +736,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 314.72894
-    y: 280.7293
-    width: 71
+    x: -135.27066
+    y: 282.9031
+    width: 72.38805
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1174,7 +1173,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -541.1986
     y: 278.38864
-    width: 96
+    width: 97.76117
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1308,7 +1307,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -408.3861
     y: 314.32614
-    width: 117
+    width: 118.656685
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1414,7 +1413,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -408.38605
     y: 241.57614
-    width: 111
+    width: 112.68654
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2278,7 +2277,7 @@ PrefabInstance:
       objectReference: {fileID: 876452734}
     - target: {fileID: 8142945212023063971, guid: 6a36c2fcb25b57141805fb61cce0654e, type: 3}
       propertyPath: playerNames.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8142945212023063971, guid: 6a36c2fcb25b57141805fb61cce0654e, type: 3}
       propertyPath: playerNames.Array.data[0]
@@ -2288,6 +2287,10 @@ PrefabInstance:
       propertyPath: playerNames.Array.data[1]
       value: 
       objectReference: {fileID: 2012471818}
+    - target: {fileID: 8142945212023063971, guid: 6a36c2fcb25b57141805fb61cce0654e, type: 3}
+      propertyPath: playerNames.Array.data[2]
+      value: 
+      objectReference: {fileID: 2012471817}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2350,6 +2353,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11b2c0c1dd03e304a833d2a16f3517c0, type: 3}
+--- !u!114 &2012471817 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6636947960148607245, guid: 11b2c0c1dd03e304a833d2a16f3517c0, type: 3}
+  m_PrefabInstance: {fileID: 2012471816}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &2012471818 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6860191618472839554, guid: 11b2c0c1dd03e304a833d2a16f3517c0, type: 3}

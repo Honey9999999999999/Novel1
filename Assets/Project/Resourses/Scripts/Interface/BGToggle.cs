@@ -18,7 +18,9 @@ public enum BG
     DMG,
     Joly,
     Valley,
-    Black
+    Black,
+    HoneyLection,
+    MorganLection
 }
 
 [Serializable]
