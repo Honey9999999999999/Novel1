@@ -557,9 +557,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6289854265513120326, guid: 11b2c0c1dd03e304a833d2a16f3517c0, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6380097490820447104, guid: 11b2c0c1dd03e304a833d2a16f3517c0, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6468000036020989148, guid: 11b2c0c1dd03e304a833d2a16f3517c0, type: 3}
       propertyPath: m_Name
       value: Stage
+      objectReference: {fileID: 0}
+    - target: {fileID: 7222765882677883900, guid: 11b2c0c1dd03e304a833d2a16f3517c0, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -720,7 +732,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 958230633}
   selectedCommands: []
   variables:
   - {fileID: 958230375}
@@ -1300,8 +1313,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -1136.7034
-    y: 301.8804
+    x: -1136.7037
+    y: 262.53613
     width: 74.59017
     height: 40
   tint: {r: 0.19824673, g: 0.764151, b: 0.3305643, a: 1}
