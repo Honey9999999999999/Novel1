@@ -611,6 +611,7 @@ GameObject:
   - component: {fileID: 782994223}
   - component: {fileID: 782994228}
   - component: {fileID: 782994227}
+  - component: {fileID: 782994229}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -645,7 +646,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 782994200}
   selectedCommands:
-  - {fileID: 782994227}
+  - {fileID: 782994229}
   variables:
   - {fileID: 782993864}
   - {fileID: 782993863}
@@ -1749,11 +1750,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 471
   indentLevel: 0
-  storyText: ...
+  storyText: '?'
   description: 
   character: {fileID: 521114348}
   portrait: {fileID: 21300000, guid: 2dd62d9a03492b645a7947bd3587661a, type: 3}
-  voiceOverClip: {fileID: 8300000, guid: 0e0d012d06ef5ca4c9bdf2c61de630c3, type: 3}
+  voiceOverClip: {fileID: 8300000, guid: 9861724cae8e6db438ce5f356d56a7c2, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -3719,6 +3720,7 @@ MonoBehaviour:
   - {fileID: 782994222}
   - {fileID: 782994228}
   - {fileID: 782994227}
+  - {fileID: 782994229}
   suppressAllAutoSelections: 0
 --- !u!114 &782994201
 MonoBehaviour:
@@ -4459,6 +4461,33 @@ MonoBehaviour:
   description: 
   character: {fileID: 1155417207}
   portrait: {fileID: 21300000, guid: 36014a1185d519b4a9438c2e39acab96, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 888172816}
+--- !u!114 &782994229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 782993856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 555
+  indentLevel: 0
+  storyText: "\u041C\u0435\u043C\u044B."
+  description: 
+  character: {fileID: 1832837221}
+  portrait: {fileID: 21300000, guid: c22572a7fd9e1b14ab5951652dbf35fa, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
