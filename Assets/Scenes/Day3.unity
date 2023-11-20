@@ -492,7 +492,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 579790422653578892, guid: 2fd6f7d46d49e834fb86e1a92e829197, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -935,7 +935,22 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 782993891}
+  - {fileID: 782994200}
+  - {fileID: 782994238}
+  - {fileID: 782994255}
+  - {fileID: 782994260}
+  - {fileID: 782994262}
+  - {fileID: 782994277}
+  - {fileID: 782994321}
+  - {fileID: 782994343}
+  - {fileID: 782994323}
+  - {fileID: 782994325}
+  - {fileID: 782994499}
+  - {fileID: 782994498}
+  - {fileID: 782994497}
+  - {fileID: 782994454}
+  - {fileID: 782994452}
+  - {fileID: 782994446}
   selectedCommands: []
   variables:
   - {fileID: 782993864}
@@ -14148,7 +14163,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1184943552
 MonoBehaviour:
   m_ObjectHideFlags: 0
