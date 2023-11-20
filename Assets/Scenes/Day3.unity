@@ -492,7 +492,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 579790422653578892, guid: 2fd6f7d46d49e834fb86e1a92e829197, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -903,6 +903,8 @@ GameObject:
   - component: {fileID: 782994419}
   - component: {fileID: 782994418}
   - component: {fileID: 782994417}
+  - component: {fileID: 782994511}
+  - component: {fileID: 782994510}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -935,23 +937,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 782994200}
-  - {fileID: 782994238}
-  - {fileID: 782994255}
-  - {fileID: 782994260}
-  - {fileID: 782994262}
-  - {fileID: 782994277}
-  - {fileID: 782994321}
-  - {fileID: 782994343}
-  - {fileID: 782994323}
-  - {fileID: 782994325}
   - {fileID: 782994499}
-  - {fileID: 782994498}
-  - {fileID: 782994497}
-  - {fileID: 782994454}
-  - {fileID: 782994452}
-  - {fileID: 782994446}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 782994510}
   variables:
   - {fileID: 782993864}
   - {fileID: 782993863}
@@ -13449,9 +13437,11 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 782994487}
+  - {fileID: 782994511}
   - {fileID: 782994496}
   - {fileID: 782994495}
   - {fileID: 782994494}
+  - {fileID: 782994510}
   - {fileID: 782994493}
   - {fileID: 782994492}
   - {fileID: 782994491}
@@ -13741,6 +13731,66 @@ MonoBehaviour:
     floatRef: {fileID: 0}
     floatVal: 1
   durationOLD: 0
+--- !u!114 &782994510
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 782993856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 889
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1155417207}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d5c1d5346cf32d1418f905daf96d2f86, type: 3}
+  offset: 0
+  fromPosition: {fileID: 700492508}
+  toPosition: {fileID: 1534232231}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &782994511
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 782993856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 888
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1832837221}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: ef6917cf6b648ef4287d6515de7b903b, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 1321128621}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!1001 &876452732
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14163,7 +14213,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1184943552
 MonoBehaviour:
   m_ObjectHideFlags: 0
