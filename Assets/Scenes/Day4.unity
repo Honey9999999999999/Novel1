@@ -1054,6 +1054,7 @@ GameObject:
   - component: {fileID: 958231241}
   - component: {fileID: 958231243}
   - component: {fileID: 958231244}
+  - component: {fileID: 958231245}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1077,7 +1078,7 @@ MonoBehaviour:
   scrollPos: {x: 587.1594, y: -303.0359}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 481
+  blockViewHeight: 472
   zoom: 0.5799999
   scrollViewRect:
     serializedVersion: 2
@@ -1088,7 +1089,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 958230854}
   selectedCommands:
-  - {fileID: 958231244}
+  - {fileID: 958231229}
   variables:
   - {fileID: 958230375}
   - {fileID: 958230374}
@@ -5456,6 +5457,7 @@ MonoBehaviour:
   - {fileID: 958230858}
   - {fileID: 958231233}
   - {fileID: 958230860}
+  - {fileID: 958231244}
   - {fileID: 958231235}
   - {fileID: 958231231}
   - {fileID: 958231230}
@@ -5465,7 +5467,7 @@ MonoBehaviour:
   - {fileID: 958231220}
   - {fileID: 958231225}
   - {fileID: 958231221}
-  - {fileID: 958231244}
+  - {fileID: 958231245}
   - {fileID: 958231222}
   suppressAllAutoSelections: 0
 --- !u!114 &958230855
@@ -20190,7 +20192,7 @@ MonoBehaviour:
   indentLevel: 1
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: MainMenu
+    stringVal: Day5
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &958231221
@@ -21154,7 +21156,7 @@ MonoBehaviour:
   indentLevel: 1
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: MainMenu
+    stringVal: Day5
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &958231230
@@ -22457,6 +22459,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemId: 1100
+  indentLevel: 1
+  description: 
+  targetObject: {fileID: 2115471151}
+  targetComponentAssemblyName: SaveManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: SaveManager
+  targetMethod: SaveReset
+  targetMethodText: 'SaveReset (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &958231245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958230367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1101
   indentLevel: 1
   description: 
   targetObject: {fileID: 2115471151}
