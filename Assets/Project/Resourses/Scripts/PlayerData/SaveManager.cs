@@ -53,7 +53,7 @@ public class SaveManager : MonoBehaviour
     }
 
     public void SaveScene() => Progress.instance.save.level = SceneManager.GetActiveScene().buildIndex;
-    public void SaveName(string name) => Progress.instance.save.playerInfo.playerName = name;
+    public void SaveName(string name) => Progress.instance.save.playerInfo.playerName = name == "" ? "Main Hero" : name;
     public void SaveCSharp(int value) => Progress.instance.save.playerInfo.cSharp = value;
     public void SaveUnity(int value) => Progress.instance.save.playerInfo.unity = value;
     public void SaveBlender(int value) => Progress.instance.save.playerInfo.blender = value;
