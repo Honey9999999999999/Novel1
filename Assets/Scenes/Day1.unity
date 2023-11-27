@@ -561,7 +561,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1085.1948
     y: 299.80026
-    width: 74.324326
+    width: 76.92308
     height: 40
   tint: {r: 0.19824673, g: 0.764151, b: 0.3305643, a: 1}
   useCustomTint: 1
@@ -592,18 +592,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 2232.861, y: 89.62543}
+  scrollPos: {x: 1847.8043, y: -63.184788}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 472
-  zoom: 0.36999997
+  zoom: 0.5199999
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 720610765}
   selectedCommands: []
   variables:
   - {fileID: 720610798}
@@ -667,9 +668,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -720.7498
-    y: 361.78357
-    width: 77.02703
+    x: -739.5854
+    y: 297.6047
+    width: 76.92308
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -835,9 +836,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -582.8201
-    y: 282.41058
-    width: 104.05406
+    x: -639.0642
+    y: 255.80951
+    width: 105.76924
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -905,9 +906,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -436.68597
-    y: 282.7223
-    width: 120.27027
+    x: -515.84717
+    y: 256.3481
+    width: 123.076935
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1174,9 +1175,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -284.92218
-    y: 207.97171
-    width: 166.21622
+    x: -369.37314
+    y: 226.94008
+    width: 167.30771
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1234,14 +1235,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 88
   indentLevel: 0
-  text: "(\u0417\u0430\u0441\u043D\u0443\u0442\u044C...)"
+  text: "\u0417\u0430\u0441\u043D\u0443\u0442\u044C"
   description: 
   targetBlock: {fileID: 720610765}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
     booleanVal: 1
-  setMenuDialog: {fileID: 0}
+  setMenuDialog: {fileID: 1484598328}
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -1259,9 +1260,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -47.826183
-    y: 281.61588
-    width: 74.324326
+    x: -175.92393
+    y: 259.2428
+    width: 73.07693
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1472,7 +1473,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -931.20966
     y: 214.79906
-    width: 136.4865
+    width: 134.61539
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1594,7 +1595,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -912.8754
     y: 362.1287
-    width: 95.94595
+    width: 98.076935
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1968,7 +1969,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -918.6859
     y: 421.0956
-    width: 112.16217
+    width: 111.53847
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2169,7 +2170,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -907.1034
     y: 302.7232
-    width: 82.432434
+    width: 82.692314
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3359,9 +3360,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -740.58185
+    x: -773.4929
     y: 215.2787
-    width: 109.459465
+    width: 113.46155
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4833,7 +4834,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 231
   indentLevel: 0
-  text: "(\u0417\u0430\u0441\u043D\u0443\u0442\u044C...)"
+  text: "\u0417\u0430\u0441\u043D\u0443\u0442\u044C"
   description: 
   targetBlock: {fileID: 720610765}
   hideIfVisited: 0
@@ -5100,9 +5101,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -257.42236
-    y: 363.93567
-    width: 109.459465
+    x: -341.87375
+    y: 278.06802
+    width: 113.46155
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5111,9 +5112,9 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 720610906}
   - {fileID: 720610911}
   - {fileID: 720610903}
-  - {fileID: 720610906}
   - {fileID: 720610909}
   - {fileID: 720610905}
   - {fileID: 720610904}

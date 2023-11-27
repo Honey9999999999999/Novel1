@@ -962,10 +962,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 782994446}
-  selectedCommands:
-  - {fileID: 782994426}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 782993864}
   - {fileID: 782993863}
@@ -2356,7 +2354,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 480
   indentLevel: 0
-  storyText: "{playerName}, \u0447\u0451 \u043A\u0430\u043A?"
+  storyText: "{$playerName}, \u0447\u0451 \u043A\u0430\u043A?"
   description: 
   character: {fileID: 89539375}
   portrait: {fileID: 21300000, guid: e6d83e8064315334e9b661b73dd165f2, type: 3}
@@ -4237,7 +4235,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 529
   indentLevel: 0
-  storyText: "\u041F\u0440\u0438\u0432\u0435\u0442, {playerName}, Van1exx, \u0437\u0430\u043F\u0443\u0441\u043A\u0430\u0439\u0442\u0435
+  storyText: "\u041F\u0440\u0438\u0432\u0435\u0442, {$playerName}, Van1exx, \u0437\u0430\u043F\u0443\u0441\u043A\u0430\u0439\u0442\u0435
     \u044D\u0442\u043E \u0441\u0442\u0430\u0440\u044C\u0451, \u0443 \u043D\u0430\u0441
     \u0432 \u043A\u043E\u043C\u0430\u043D\u0434\u0435 \u043B\u044E\u0434\u0435\u0439
     \u043D\u0435 \u0445\u0432\u0430\u0442\u0430\u0435\u0442, \u0441\u043A\u0443\u0447\u043D\u043E
@@ -4318,7 +4316,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 525
   indentLevel: 0
-  storyText: "{playerName}, \u0443 \u043D\u0430\u0441 \u0442\u0443\u0442 \u0442\u0443\u0440\u043D\u0438\u0440
+  storyText: "{$playerName}, \u0443 \u043D\u0430\u0441 \u0442\u0443\u0442 \u0442\u0443\u0440\u043D\u0438\u0440
     \u043F\u0435\u0440\u0435\u0434 \u043B\u0435\u043A\u0446\u0438\u0435\u0439 \u043D\u0430\u043C\u0435\u0447\u0430\u0435\u0442\u0441\u044F.
     \u0411\u0443\u0434\u0435\u0448\u044C \u0443\u0447\u0430\u0441\u0442\u0432\u043E\u0432\u0430\u0442\u044C?"
   description: 
@@ -4882,7 +4880,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 556
   indentLevel: 0
-  storyText: "\u0425\u0430\u043D\u0438, {playerName} \u0443\u0436\u0435 \u0437\u0430\u043F\u043B\u0435\u043D\u0442\u0438\u043B,
+  storyText: "\u0425\u0430\u043D\u0438, {$playerName} \u0443\u0436\u0435 \u0437\u0430\u043F\u043B\u0435\u043D\u0442\u0438\u043B,
     \u0433\u0434\u0435 \u0442\u044B \u0433\u0443\u043B\u044F\u0435\u0448\u044C?"
   description: 
   character: {fileID: 253136562}
@@ -5034,7 +5032,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 1155417207}
   portrait: {fileID: 21300000, guid: 36014a1185d519b4a9438c2e39acab96, type: 3}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: ce17fc586516e6f4583c993f6ca7abff, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
@@ -5742,7 +5740,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 570
   indentLevel: 1
-  storyText: "{playerName}, \u0447\u0442\u043E \u0441\u043A\u0430\u0436\u0435\u0448\u044C?"
+  storyText: "{$playerName}, \u0447\u0442\u043E \u0441\u043A\u0430\u0436\u0435\u0448\u044C?"
   description: 
   character: {fileID: 89539375}
   portrait: {fileID: 21300000, guid: e6d83e8064315334e9b661b73dd165f2, type: 3}
@@ -5846,7 +5844,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 567
   indentLevel: 1
-  storyText: "{playerName}, \u0447\u0442\u043E \u0441\u043A\u0430\u0436\u0435\u0448\u044C?"
+  storyText: "{$playerName}, \u0447\u0442\u043E \u0441\u043A\u0430\u0436\u0435\u0448\u044C?"
   description: 
   character: {fileID: 89539375}
   portrait: {fileID: 21300000, guid: e6d83e8064315334e9b661b73dd165f2, type: 3}
@@ -6116,7 +6114,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 565
   indentLevel: 1
-  storyText: "\u0427\u0443\u0440 {playerName} \u0438\u0434\u0451\u0442 \u043A \u043D\u0430\u043C!"
+  storyText: "\u0427\u0443\u0440 {$playerName} \u0438\u0434\u0451\u0442 \u043A \u043D\u0430\u043C!"
   description: 
   character: {fileID: 1155417207}
   portrait: {fileID: 21300000, guid: 36014a1185d519b4a9438c2e39acab96, type: 3}
@@ -7202,7 +7200,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 608
   indentLevel: 0
-  storyText: "\u0421\u043F\u0430\u0441\u043F\u0438\u0431\u043E, {playerName}, \u0441\u043F\u0430\u0441\u0438\u0431\u043E
+  storyText: "\u0421\u043F\u0430\u0441\u043F\u0438\u0431\u043E, {$playerName}, \u0441\u043F\u0430\u0441\u0438\u0431\u043E
     \u0437\u0430 \u043C\u043E\u043B\u043E\u0442\u043E\u0432 \u0432 \u0431\u043E\u043C\u0431\u0443,
     \u043A\u0430\u043A \u0436\u0435 \u044D\u0442\u043E \u0431\u044B\u043B\u043E \u0445\u043E\u0440\u043E\u0448\u043E,
     \u044F \u043F\u043B\u0430\u043A\u0430\u0442\u044C \u0445\u043E\u0447\u0443."
@@ -12691,7 +12689,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 795
   indentLevel: 1
-  storyText: "\u041B\u0430\u0434\u043D\u043E, {playerName}, \u0447\u0435\u043A\u043D\u0438
+  storyText: "\u041B\u0430\u0434\u043D\u043E, {$playerName}, \u0447\u0435\u043A\u043D\u0438
     \u043B\u0441"
   description: 
   character: {fileID: 89539375}
@@ -12719,7 +12717,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 793
   indentLevel: 1
-  storyText: "{playerName}, \u0447\u0435\u043A\u043D\u0438 \u043B\u0441"
+  storyText: "{$playerName}, \u0447\u0435\u043A\u043D\u0438 \u043B\u0441"
   description: 
   character: {fileID: 89539375}
   portrait: {fileID: 21300000, guid: e6d83e8064315334e9b661b73dd165f2, type: 3}
@@ -13134,7 +13132,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 865.0179
-    y: 175.6566
+    y: 174.01726
     width: 72.950806
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -14185,7 +14183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 912
   indentLevel: 1
-  storyText: "{playerName}, \u0447\u0435\u043A\u043D\u0438 \u043B\u0441"
+  storyText: "{$playerName}, \u0447\u0435\u043A\u043D\u0438 \u043B\u0441"
   description: 
   character: {fileID: 89539375}
   portrait: {fileID: 21300000, guid: e6d83e8064315334e9b661b73dd165f2, type: 3}
@@ -14511,7 +14509,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 907
   indentLevel: 1
-  storyText: "{playerName}, \u0447\u0435\u043A\u043D\u0438 \u043B\u0441"
+  storyText: "{$playerName}, \u0447\u0435\u043A\u043D\u0438 \u043B\u0441"
   description: 
   character: {fileID: 89539375}
   portrait: {fileID: 21300000, guid: e6d83e8064315334e9b661b73dd165f2, type: 3}
@@ -15346,7 +15344,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &782994543
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -15375,7 +15373,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 368293920}
 --- !u!114 &782994544
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -15405,7 +15403,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 368293920}
 --- !u!114 &782994545
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -15432,7 +15430,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 368293920}
 --- !u!114 &782994546
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
