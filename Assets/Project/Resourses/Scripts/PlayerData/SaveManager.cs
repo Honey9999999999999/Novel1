@@ -10,6 +10,7 @@ using UnityEngine.UI;
 public class SaveManager : MonoBehaviour
 {
     public static event Action OnVarLoaded;
+    [SerializeField] private Flowchart flowchart;
 
     private void Start()
     {
@@ -32,8 +33,6 @@ public class SaveManager : MonoBehaviour
     }
     public void LoadVariables()
     {
-        Flowchart flowchart = FindObjectOfType<Flowchart>();
-
         if (flowchart == null)
             throw new Exception("Flowchart is not find");
 

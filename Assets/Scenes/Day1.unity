@@ -561,7 +561,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1085.1948
     y: 299.80026
-    width: 76.92308
+    width: 76.315796
     height: 40
   tint: {r: 0.19824673, g: 0.764151, b: 0.3305643, a: 1}
   useCustomTint: 1
@@ -592,11 +592,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1847.8043, y: -63.184788}
+  scrollPos: {x: 858.6939, y: -159.70616}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 472
-  zoom: 0.5199999
+  zoom: 0.75999975
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -605,7 +605,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 720610765}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 720610924}
   variables:
   - {fileID: 720610798}
   - {fileID: 720610705}
@@ -670,7 +671,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -739.5854
     y: 297.6047
-    width: 76.92308
+    width: 73.68422
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -838,7 +839,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -639.0642
     y: 255.80951
-    width: 105.76924
+    width: 98.68423
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -908,7 +909,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -515.84717
     y: 256.3481
-    width: 123.076935
+    width: 115.7895
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1177,7 +1178,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -369.37314
     y: 226.94008
-    width: 167.30771
+    width: 159.21057
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1262,7 +1263,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -175.92393
     y: 259.2428
-    width: 73.07693
+    width: 69.73685
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1473,7 +1474,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -931.20966
     y: 214.79906
-    width: 134.61539
+    width: 123.684235
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1595,7 +1596,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -912.8754
     y: 362.1287
-    width: 98.076935
+    width: 94.73686
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1969,7 +1970,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -918.6859
     y: 421.0956
-    width: 111.53847
+    width: 106.578964
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2170,7 +2171,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -907.1034
     y: 302.7232
-    width: 82.692314
+    width: 82.894745
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3362,7 +3363,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -773.4929
     y: 215.2787
-    width: 113.46155
+    width: 106.578964
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5103,7 +5104,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -341.87375
     y: 278.06802
-    width: 113.46155
+    width: 106.578964
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5619,7 +5620,7 @@ MonoBehaviour:
       textureValue: {fileID: 0}
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
-    variableKey: Morgan_Friendhsip
+    variableKey: Morgan_Friendship
   saveReturnValue: 0
   returnValueVariableKey: 
   returnValueType: System.Void
