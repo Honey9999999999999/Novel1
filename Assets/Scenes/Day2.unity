@@ -567,7 +567,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &243279765
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -660,8 +660,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 243279841}
+  selectedCommands:
+  - {fileID: 243279850}
   variables:
   - {fileID: 243279844}
   - {fileID: 243279805}
@@ -739,7 +741,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 72.50362
+    x: 70.86427
     y: 278.6104
     width: 110.65575
     height: 40
@@ -2607,7 +2609,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 235777059}
+  setSayDialog: {fileID: 1532562222}
 --- !u!114 &243279961
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6987,7 +6989,7 @@ MonoBehaviour:
   - objValue:
       typeAssemblyname: BG, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
       typeFullname: BG
-      intValue: 5
+      intValue: 15
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -7147,7 +7149,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1532562222}
 --- !u!114 &243280104
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7247,7 +7249,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -82.70942
-    y: 320.11502
+    y: 321.75436
     width: 120.49181
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -7650,7 +7652,7 @@ MonoBehaviour:
   - objValue:
       typeAssemblyname: BG, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
       typeFullname: BG
-      intValue: 5
+      intValue: 15
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -8656,7 +8658,7 @@ MonoBehaviour:
   - objValue:
       typeAssemblyname: BG, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
       typeFullname: BG
-      intValue: 5
+      intValue: 15
       boolValue: 0
       floatValue: 0
       stringValue: 
@@ -11659,6 +11661,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b3499177b2c4bc4caa34d0c79ef0cd4, type: 3}
+--- !u!1 &854820877 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7781848387687403423, guid: 11b2c0c1dd03e304a833d2a16f3517c0, type: 3}
+  m_PrefabInstance: {fileID: 1904379308}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &924284310 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1555660038146798160, guid: 43b0cc66bf04fb7479ae4d80b943b6b8, type: 3}
@@ -12104,7 +12111,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 579790422653578892, guid: 2fd6f7d46d49e834fb86e1a92e829197, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12170,10 +12177,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6442955810723658819, guid: 11b2c0c1dd03e304a833d2a16f3517c0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bf42b9bc2c6fb9f4ba83d2a3e66e7ef7, type: 3}
     - target: {fileID: 6468000036020989148, guid: 11b2c0c1dd03e304a833d2a16f3517c0, type: 3}
       propertyPath: m_Name
       value: Stage
       objectReference: {fileID: 0}
+    - target: {fileID: 6996104514841021065, guid: 11b2c0c1dd03e304a833d2a16f3517c0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 2eca4f47492bc1240a1be621be2556dd, type: 3}
+    - target: {fileID: 7705724949221323872, guid: 11b2c0c1dd03e304a833d2a16f3517c0, type: 3}
+      propertyPath: backgrounds.Array.size
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 7705724949221323872, guid: 11b2c0c1dd03e304a833d2a16f3517c0, type: 3}
+      propertyPath: backgrounds.Array.data[15].name
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7705724949221323872, guid: 11b2c0c1dd03e304a833d2a16f3517c0, type: 3}
+      propertyPath: backgrounds.Array.data[15].objectBG
+      value: 
+      objectReference: {fileID: 854820877}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
