@@ -21,7 +21,8 @@ public enum BG
     Black,
     HoneyLection,
     MorganLection,
-    CSGame1
+    CSGame1,
+    CampfireBalls
 }
 
 [Serializable]
