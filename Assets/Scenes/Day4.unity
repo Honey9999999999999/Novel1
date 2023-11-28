@@ -1065,6 +1065,7 @@ GameObject:
   - component: {fileID: 958231247}
   - component: {fileID: 958231251}
   - component: {fileID: 958231250}
+  - component: {fileID: 958231252}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1085,10 +1086,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 774.00507, y: -293.7462}
+  scrollPos: {x: 1127.4534, y: -200.64272}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 472
+  blockViewHeight: 280
   zoom: 0.5799999
   scrollViewRect:
     serializedVersion: 2
@@ -1097,9 +1098,9 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 958230656}
+  - {fileID: 958231000}
   selectedCommands:
-  - {fileID: 958230684}
+  - {fileID: 958231252}
   variables:
   - {fileID: 958230375}
   - {fileID: 958230374}
@@ -7878,8 +7879,9 @@ MonoBehaviour:
   - {fileID: 958230996}
   - {fileID: 958231114}
   - {fileID: 958230995}
-  - {fileID: 958231227}
   - {fileID: 958231113}
+  - {fileID: 958231227}
+  - {fileID: 958231252}
   suppressAllAutoSelections: 0
 --- !u!114 &958231002
 MonoBehaviour:
@@ -11704,7 +11706,7 @@ MonoBehaviour:
           gameObjectVal: {fileID: 0}
         integerData:
           integerRef: {fileID: 0}
-          integerVal: 3
+          integerVal: 2
         materialData:
           materialRef: {fileID: 0}
           materialVal: {fileID: 0}
@@ -12146,7 +12148,7 @@ MonoBehaviour:
           gameObjectVal: {fileID: 0}
         integerData:
           integerRef: {fileID: 0}
-          integerVal: 3
+          integerVal: 2
         materialData:
           materialRef: {fileID: 0}
           materialVal: {fileID: 0}
@@ -14215,7 +14217,7 @@ MonoBehaviour:
           gameObjectVal: {fileID: 0}
         integerData:
           integerRef: {fileID: 0}
-          integerVal: 2
+          integerVal: 3
         materialData:
           materialRef: {fileID: 0}
           materialVal: {fileID: 0}
@@ -20304,7 +20306,7 @@ MonoBehaviour:
           gameObjectVal: {fileID: 0}
         integerData:
           integerRef: {fileID: 0}
-          integerVal: 3
+          integerVal: 2
         materialData:
           materialRef: {fileID: 0}
           materialVal: {fileID: 0}
@@ -22756,6 +22758,31 @@ MonoBehaviour:
     stringVal: 
   startIndex: 0
   callMode: 0
+--- !u!114 &958231252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958230367}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1110
+  indentLevel: 1
+  text: "\u041F\u043E\u0433\u043E\u0432\u043E\u0440\u0438\u0442\u044C \u0441 Joly"
+  description: 
+  targetBlock: {fileID: 958230694}
+  hideIfVisited: 1
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 1629072115}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!224 &1027868750 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3094181946026083353, guid: 11b2c0c1dd03e304a833d2a16f3517c0, type: 3}
