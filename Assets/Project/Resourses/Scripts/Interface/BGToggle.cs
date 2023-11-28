@@ -22,7 +22,8 @@ public enum BG
     HoneyLection,
     MorganLection,
     CSGame1,
-    CampfireBalls
+    CampfireBalls,
+    GameOver
 }
 
 [Serializable]
