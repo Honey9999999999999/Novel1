@@ -959,7 +959,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -455.63904, y: -115.51856}
+  scrollPos: {x: -27.589996, y: -114.29905}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 472
@@ -971,8 +971,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 782994497}
-  selectedCommands: []
+  - {fileID: 782994325}
+  selectedCommands:
+  - {fileID: 782994505}
   variables:
   - {fileID: 782993864}
   - {fileID: 782993863}
@@ -7271,7 +7272,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 604
   indentLevel: 0
-  storyText: "\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410"
+  storyText: "\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410\u0410"
   description: 
   character: {fileID: 920314161}
   portrait: {fileID: 21300000, guid: cdeee9df30b7b5747bc8ae50f9634633, type: 3}
@@ -13451,7 +13452,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 766
   indentLevel: 0
-  storyText: "\"\u041F\u0440\u043E\u0448\u043B\u043E 1,5 \u0447\u0430\u0441\u0430...\"{w=1.0}"
+  storyText: "\u041F\u0440\u043E\u0448\u043B\u043E 1,5 \u0447\u0430\u0441\u0430...{w=1.0}"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
