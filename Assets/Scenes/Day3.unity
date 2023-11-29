@@ -959,11 +959,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 539.52795, y: -41.889618}
+  scrollPos: {x: -455.63904, y: -115.51856}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 472
-  zoom: 0.63999987
+  zoom: 0.81999964
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -971,7 +971,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 782994321}
+  - {fileID: 782994497}
   selectedCommands: []
   variables:
   - {fileID: 782993864}
@@ -1112,7 +1112,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -640.27545
     y: 274.26962
-    width: 76.25001
+    width: 76.829285
     height: 40
   tint: {r: 0.19824673, g: 0.764151, b: 0.3305643, a: 1}
   useCustomTint: 1
@@ -1163,7 +1163,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 972.26404
     y: 348.1125
-    width: 72.5
+    width: 71.95123
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1598,7 +1598,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -539.55927
     y: 275.77795
-    width: 97.500015
+    width: 96.341484
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1731,7 +1731,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -401.27014
     y: 315.2099
-    width: 82.50001
+    width: 82.92685
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1844,7 +1844,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -406.89352
     y: 244.84106
-    width: 100.000015
+    width: 98.78051
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2244,7 +2244,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -253.13141
     y: 315.0342
-    width: 105.000015
+    width: 102.43905
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2466,7 +2466,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -242.75124
     y: 245.84157
-    width: 83.75001
+    width: 82.92685
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3960,7 +3960,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -116.044266
     y: 278.04004
-    width: 101.250015
+    width: 100.00002
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4021,9 +4021,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 3.7740765
+    x: 2.3455048
     y: 279.15372
-    width: 98.750015
+    width: 97.561
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5066,7 +5066,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 125.49327
     y: 235.90053
-    width: 107.500015
+    width: 106.09759
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5792,7 +5792,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 123.50687
     y: 322.57184
-    width: 121.250015
+    width: 120.731735
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6152,7 +6152,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 263.02594
     y: 236.64143
-    width: 91.25001
+    width: 89.02441
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6224,7 +6224,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 402.158
     y: 256.3895
-    width: 91.25001
+    width: 91.46343
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6685,7 +6685,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 400.30975
     y: 215.19794
-    width: 61.25
+    width: 62.19513
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7212,7 +7212,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 608
   indentLevel: 0
-  storyText: "\u0421\u043F\u0430\u0441\u043F\u0438\u0431\u043E, {$playerName}, \u0441\u043F\u0430\u0441\u0438\u0431\u043E
+  storyText: "\u0421\u043F\u0430\u0441\u0438\u0431\u043E, {$playerName}, \u0441\u043F\u0430\u0441\u0438\u0431\u043E
     \u0437\u0430 \u043C\u043E\u043B\u043E\u0442\u043E\u0432 \u0432 \u0431\u043E\u043C\u0431\u0443,
     \u043A\u0430\u043A \u0436\u0435 \u044D\u0442\u043E \u0431\u044B\u043B\u043E \u0445\u043E\u0440\u043E\u0448\u043E,
     \u044F \u043F\u043B\u0430\u043A\u0430\u0442\u044C \u0445\u043E\u0447\u0443."
@@ -7897,7 +7897,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 266.11554
     y: 322.8224
-    width: 92.50001
+    width: 91.46343
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7972,7 +7972,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 401.7913
     y: 336.60284
-    width: 68.75
+    width: 69.51221
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8021,7 +8021,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 546.06616
     y: 281.22906
-    width: 93.75001
+    width: 92.682945
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8529,7 +8529,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 401.6194
     y: 297.1453
-    width: 98.750015
+    width: 98.78051
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10658,7 +10658,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "\u0422\u0430\u043A, \u0440\u0435\u0431\u044F\u0442\u043A\u0438, \u044D\u0442\u043E
     \u0432\u0441\u0451, \u043A\u043E\u043D\u0435\u0447\u043D\u043E, \u043A\u043B\u0430\u0441\u0441\u043D\u043E,
-    \u043D\u043E \u0432\u044B \u0441 \u0438\u0433\u0440\u043E\u0439 \u043F\u043E\u0437\u0434\u0430\u0442\u044F\u043D\u0443\u043B\u0438,
+    \u043D\u043E \u0432\u044B \u0441 \u0438\u0433\u0440\u043E\u0439 \u043F\u043E\u0434\u0437\u0430\u0442\u044F\u043D\u0443\u043B\u0438,
     \u043B\u0435\u043A\u0446\u0438\u044F \u0443\u0436\u0435 \u043D\u0430\u0447\u0438\u043D\u0430\u0435\u0442\u0441\u044F."
   description: 
   character: {fileID: 6788755}
@@ -11702,7 +11702,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 861.0179
     y: 291.78156
-    width: 85.00001
+    width: 84.14636
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11888,7 +11888,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 910.0179
     y: 233.78159
-    width: 85.00001
+    width: 84.14636
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11948,7 +11948,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 812.0179
     y: 233.78159
-    width: 85.00001
+    width: 82.92685
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12423,7 +12423,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "\u0427\u0435\u0441\u0442\u043D\u043E\u0441\u0442\u0438 \u0440\u0430\u0434\u0438,
     \u044F \u0447\u0442\u043E-\u0442\u043E \u0434\u0430 \u0443\u043C\u0435\u044E.
-    \u0425\u043E\u0442\u0435\u043B \u043D\u0430\u0439\u0442\u0438 \u0435\u0434\u0438\u043D\u043E\u043C\u044B\u043B\u0435\u043D\u043D\u0438\u043A\u043E\u0432,
+    \u0425\u043E\u0442\u0435\u043B \u043D\u0430\u0439\u0442\u0438 \u0435\u0434\u0438\u043D\u043E\u043C\u044B\u0448\u043B\u0435\u043D\u043D\u0438\u043A\u043E\u0432,
     \u043F\u043E\u043F\u0440\u043E\u0431\u043E\u0432\u0430\u0442\u044C \u0441\u0435\u0431\u044F
     \u0432 \u0433\u0435\u0439\u043C \u0434\u0436\u0435\u043C\u0435"
   description: 
@@ -13089,7 +13089,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 854.18365
     y: 347.86472
-    width: 98.750015
+    width: 98.78051
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13119,7 +13119,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 865.0179
     y: 174.01726
-    width: 75.00001
+    width: 73.170746
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13170,7 +13170,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 650.9742
     y: 281.61243
-    width: 103.750015
+    width: 102.43905
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -15448,7 +15448,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 368293920}
 --- !u!114 &782994547
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -15466,7 +15466,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &782994548
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
