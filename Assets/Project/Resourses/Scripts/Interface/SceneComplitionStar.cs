@@ -1,9 +1,8 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SceneComplition : MonoBehaviour
+public class EndStarComplition : MonoBehaviour
 {
     [SerializeField] private Sprite simpleStar;
     [SerializeField] private Sprite secretStar;
@@ -12,15 +11,18 @@ public class SceneComplition : MonoBehaviour
 
     void Start()
     {
-        int counter = 0;
-        foreach (var key in Progress.instance.save.stars.Keys)
+        Refresh();
+    }
+
+    public void Refresh()
+    {
+        for (int i = 0; i < Progress.instance.save.stars.Count; i++)
         {
-            if (Progress.instance.save.stars[key] == true && counter < images.Count)
-                if(counter == 4)
-                    images[counter].sprite = secretStar;
+            if (Progress.instance.save.stars[i] == true)
+                if (i == 4)
+                    images[i].sprite = secretStar;
                 else
-                    images[counter].sprite = simpleStar;
-            counter++;
-        } 
+                    images[i].sprite = simpleStar;
+        }
     }
 }

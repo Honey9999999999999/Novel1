@@ -16,6 +16,7 @@ mergeInto(LibraryManager.library, {
       console.log("Player data:", _data);
       const myJSON = JSON.stringify(_data);
       myGameInstance.SendMessage('Progress', 'SetPlayerInfo', myJSON);
+      myGameInstance.SendMessage('stars', 'Refresh');
     });
   },
 

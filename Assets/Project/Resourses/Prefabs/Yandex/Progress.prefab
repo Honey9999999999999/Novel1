@@ -182,10 +182,11 @@ MonoBehaviour:
   save:
     level: 0
     playerInfo:
+      playerName: 
       cSharp: 0
       blender: 0
       unity: 0
       morgan: 0
       vondarm: 0
       joly: 0
-  loadInfo: {fileID: 8298366147574776480}
+    stars: 0000000000
