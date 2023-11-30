@@ -5,7 +5,8 @@ using UnityEngine.UI;
 
 public class SceneComplition : MonoBehaviour
 {
-    [SerializeField] private Sprite sprite;
+    [SerializeField] private Sprite simpleStar;
+    [SerializeField] private Sprite secretStar;
 
     [SerializeField] private List<Image> images = new List<Image>();
 
@@ -15,7 +16,10 @@ public class SceneComplition : MonoBehaviour
         foreach (var item in Progress.instance.save.stars.Keys)
         {
             if (Progress.instance.save.stars[item] == true && counter < images.Count)
-                images[counter].sprite = sprite;
+                if(counter == 4)
+                    images[counter].sprite = secretStar;
+                else
+                    images[counter].sprite = simpleStar;
             counter++;
         } 
     }
