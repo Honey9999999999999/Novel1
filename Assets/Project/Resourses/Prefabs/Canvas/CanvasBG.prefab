@@ -462,7 +462,7 @@ GameObject:
   - component: {fileID: 1520025711368753963}
   - component: {fileID: 8175889757430265507}
   m_Layer: 5
-  m_Name: GameOver (4)
+  m_Name: BadBG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -515,7 +515,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 85d8b1b69cfd3ff4a9e131e958ee12ea, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f100714159607a2488617b786a08f105, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1306,13 +1306,13 @@ MonoBehaviour:
   - name: 16
     objectBG: {fileID: 3325223386825002593}
   - name: 17
-    objectBG: {fileID: 5708735463088486442}
+    objectBG: {fileID: 8337638155724449021}
   - name: 18
-    objectBG: {fileID: 5708735463088486442}
+    objectBG: {fileID: 6159461547654182617}
   - name: 19
-    objectBG: {fileID: 5708735463088486442}
+    objectBG: {fileID: 8058823580111402563}
   - name: 20
-    objectBG: {fileID: 5708735463088486442}
+    objectBG: {fileID: 2936198466542423184}
   requiredBG: 0
 --- !u!1 &7168709332541844323
 GameObject:
