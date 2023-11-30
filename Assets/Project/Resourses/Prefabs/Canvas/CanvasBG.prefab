@@ -1600,6 +1600,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -86
       objectReference: {fileID: 0}
+    - target: {fileID: 4615345914295997895, guid: c5f45150b1b9d1846906a2160f597213, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: a6f8420e99a3c824aa974a6d664077c0, type: 3}
     - target: {fileID: 4705665590807724296, guid: c5f45150b1b9d1846906a2160f597213, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1839,6 +1843,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8673988210201891134, guid: 5476313d8f506664a947cb0acf849d14, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: a6f8420e99a3c824aa974a6d664077c0, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
