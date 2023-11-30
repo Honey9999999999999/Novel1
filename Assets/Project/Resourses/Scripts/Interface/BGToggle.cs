@@ -24,9 +24,8 @@ public enum BG
     CSGame1,
     CampfireBalls,
     GameOver,
-    HoneyBG,
-    JolyBG,
-    VondarmBG,
+    NeitralBG,
+    GoodBG,
     BadBG
 }
 
