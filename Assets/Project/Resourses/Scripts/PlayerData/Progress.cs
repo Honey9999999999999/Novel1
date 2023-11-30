@@ -12,6 +12,15 @@ public class Save
 {
     public int level;
     public PlayerInfo playerInfo;
+
+    public Dictionary<string, bool> stars = new()
+    {
+        { "Good1", false },
+        { "Good2", false },
+        { "Bad1", false },
+        { "Bad2", false },
+        { "Secret", false }
+    };
 }
 
 [Serializable]

@@ -60,6 +60,12 @@ public class SaveManager : MonoBehaviour
     public void SaveMorgan(int value) => Progress.instance.save.playerInfo.morgan = value;
     public void SaveJoly(int value) => Progress.instance.save.playerInfo.joly = value;
     public void SaveVondarm(int value) => Progress.instance.save.playerInfo.vondarm = value;
+
+    public void UnlockEnd(string name)
+    {
+        if(Progress.instance.save.stars.ContainsKey(name))
+            Progress.instance.save.stars[name] = true;
+    }
     
 
     public void SaveReset()
