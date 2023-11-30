@@ -23,7 +23,11 @@ public enum BG
     MorganLection,
     CSGame1,
     CampfireBalls,
-    GameOver
+    GameOver,
+    HoneyBG,
+    JolyBG,
+    VondarmBG,
+    BadBG
 }
 
 [Serializable]
