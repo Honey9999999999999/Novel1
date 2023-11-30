@@ -83,4 +83,13 @@ public class SaveManager : MonoBehaviour
 
         Save();
     }
+    public void FullReset()
+    {
+        for (int i = 0; i < Progress.instance.save.stars.Count; i++)
+        {
+            Progress.instance.save.stars[i] = false;
+        }
+
+        SaveReset();
+    }
 }
