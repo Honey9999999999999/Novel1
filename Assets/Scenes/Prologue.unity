@@ -352,7 +352,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1.3157891
     y: 75.811
-    width: 108.08217
+    width: 108.90408
     height: 40
   tint: {r: 0.19824673, g: 0.764151, b: 0.3305643, a: 1}
   useCustomTint: 1
@@ -403,7 +403,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 333880419}
   selectedCommands:
-  - {fileID: 333880416}
+  - {fileID: 333880433}
   variables:
   - {fileID: 333880417}
   description: 
@@ -1542,12 +1542,12 @@ PrefabInstance:
       objectReference: {fileID: 333880420}
     - target: {fileID: 8636582460525025949, guid: afa7216e22600c5469afd2dc5494c677, type: 3}
       propertyPath: dialogPanels.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8636582460525025949, guid: afa7216e22600c5469afd2dc5494c677, type: 3}
       propertyPath: dialogPanels.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2028558031}
     - target: {fileID: 8636582460525025949, guid: afa7216e22600c5469afd2dc5494c677, type: 3}
       propertyPath: dialogPanels.Array.data[1]
       value: 
@@ -1561,6 +1561,11 @@ PrefabInstance:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5926335369494065134, guid: afa7216e22600c5469afd2dc5494c677, type: 3}
   m_PrefabInstance: {fileID: 1649354113}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2028558031 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4630546104181182143, guid: bdd0e18e5e86afe45b60c62d6168fd14, type: 3}
+  m_PrefabInstance: {fileID: 924107199}
   m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

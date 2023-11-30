@@ -508,7 +508,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0.92
+  m_Text: 0.95
 --- !u!222 &288994327
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1058,7 +1058,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b27de07854eb9c442ae1965c3fbcb247, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 55
+  moveSpeed: 25
 --- !u!1 &870409488
 GameObject:
   m_ObjectHideFlags: 0
@@ -2657,7 +2657,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b27de07854eb9c442ae1965c3fbcb247, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 35
+  moveSpeed: 18
 --- !u!1001 &1587621247
 PrefabInstance:
   m_ObjectHideFlags: 0
