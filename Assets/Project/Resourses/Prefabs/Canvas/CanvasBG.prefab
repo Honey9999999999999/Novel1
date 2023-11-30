@@ -167,7 +167,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8497799441639051426
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1582,7 +1582,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1709356248828324062, guid: c5f45150b1b9d1846906a2160f597213, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3855783607767549186, guid: c5f45150b1b9d1846906a2160f597213, type: 3}
       propertyPath: m_SizeDelta.x
@@ -1603,7 +1603,11 @@ PrefabInstance:
     - target: {fileID: 4615345914295997895, guid: c5f45150b1b9d1846906a2160f597213, type: 3}
       propertyPath: m_FontData.m_Font
       value: 
-      objectReference: {fileID: 12800000, guid: a6f8420e99a3c824aa974a6d664077c0, type: 3}
+      objectReference: {fileID: 12800000, guid: 33d6f7ad354ee404c837ab1c7ebea3a6, type: 3}
+    - target: {fileID: 4615345914295997895, guid: c5f45150b1b9d1846906a2160f597213, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4705665590807724296, guid: c5f45150b1b9d1846906a2160f597213, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1690,7 +1694,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5583940405488094313, guid: c5f45150b1b9d1846906a2160f597213, type: 3}
       propertyPath: m_SizeDelta.y
-      value: -22
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 5583940405488094313, guid: c5f45150b1b9d1846906a2160f597213, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1698,7 +1702,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5583940405488094313, guid: c5f45150b1b9d1846906a2160f597213, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -61
+      value: -86
       objectReference: {fileID: 0}
     - target: {fileID: 6448556290192431520, guid: c5f45150b1b9d1846906a2160f597213, type: 3}
       propertyPath: m_SortingLayer
@@ -1846,7 +1850,11 @@ PrefabInstance:
     - target: {fileID: 8673988210201891134, guid: 5476313d8f506664a947cb0acf849d14, type: 3}
       propertyPath: m_FontData.m_Font
       value: 
-      objectReference: {fileID: 12800000, guid: a6f8420e99a3c824aa974a6d664077c0, type: 3}
+      objectReference: {fileID: 12800000, guid: 33d6f7ad354ee404c837ab1c7ebea3a6, type: 3}
+    - target: {fileID: 8673988210201891134, guid: 5476313d8f506664a947cb0acf849d14, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
