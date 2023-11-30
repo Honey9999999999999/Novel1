@@ -13,9 +13,9 @@ public class SceneComplition : MonoBehaviour
     void Start()
     {
         int counter = 0;
-        foreach (var item in Progress.instance.save.stars.Keys)
+        foreach (var key in Progress.instance.save.stars.Keys)
         {
-            if (Progress.instance.save.stars[item] == true && counter < images.Count)
+            if (Progress.instance.save.stars[key] == true && counter < images.Count)
                 if(counter == 4)
                     images[counter].sprite = secretStar;
                 else

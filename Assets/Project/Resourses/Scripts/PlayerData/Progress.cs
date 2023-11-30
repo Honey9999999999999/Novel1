@@ -41,7 +41,7 @@ public class Progress : MonoBehaviour
 {
     public event Action OnSaveLoaded;
 
-    public Save save;    
+    public Save save;
 
     [DllImport("__Internal")]
     private static extern void SaveExtern(string data);
@@ -81,5 +81,5 @@ public class Progress : MonoBehaviour
         Debug.Log(value);
         save = JsonUtility.FromJson<Save>(value);
         OnSaveLoaded?.Invoke();
-    }    
+    }
 }
