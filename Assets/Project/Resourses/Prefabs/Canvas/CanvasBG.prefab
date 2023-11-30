@@ -1062,7 +1062,7 @@ GameObject:
   - component: {fileID: 1813927857012100100}
   - component: {fileID: 9125857607433910876}
   m_Layer: 5
-  m_Name: GameOver (2)
+  m_Name: JolyBG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1115,7 +1115,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 85d8b1b69cfd3ff4a9e131e958ee12ea, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 77f8c04736d51b2428fbd8f5d8e2d37a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1384,7 +1384,7 @@ GameObject:
   - component: {fileID: 3343430257157279099}
   - component: {fileID: 8824707483986415888}
   m_Layer: 5
-  m_Name: GameOver (3)
+  m_Name: VondarmBG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1437,7 +1437,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 85d8b1b69cfd3ff4a9e131e958ee12ea, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f5ba4927f842c854e89dc56db331a786, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1609,7 +1609,7 @@ GameObject:
   - component: {fileID: 8468107280865252853}
   - component: {fileID: 7582142132391202630}
   m_Layer: 5
-  m_Name: GameOver (1)
+  m_Name: HoneyBG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1662,7 +1662,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 85d8b1b69cfd3ff4a9e131e958ee12ea, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 58ebcdbf0e072504c850fe81e2edbef7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
