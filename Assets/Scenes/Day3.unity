@@ -1163,7 +1163,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 972.26404
+    x: 970.7715
     y: 348.1125
     width: 72.38807
     height: 40
@@ -15693,8 +15693,8 @@ MonoBehaviour:
     PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
   targetComponentText: SaveManager
-  targetMethod: SaveJoly
-  targetMethodText: 'SaveJoly (Int32): Void'
+  targetMethod: SaveVondarm
+  targetMethodText: 'SaveVondarm (Int32): Void'
   methodParameters:
   - objValue:
       typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
