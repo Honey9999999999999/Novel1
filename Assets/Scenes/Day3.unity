@@ -751,7 +751,6 @@ GameObject:
   - component: {fileID: 782994370}
   - component: {fileID: 782994369}
   - component: {fileID: 782994368}
-  - component: {fileID: 782994367}
   - component: {fileID: 782994343}
   - component: {fileID: 782994366}
   - component: {fileID: 782994365}
@@ -940,6 +939,7 @@ GameObject:
   - component: {fileID: 782994548}
   - component: {fileID: 782994547}
   - component: {fileID: 782994556}
+  - component: {fileID: 782994557}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -960,7 +960,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -397.55743, y: -112.47735}
+  scrollPos: {x: 209.90547, y: -70.68627}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 472
@@ -972,9 +972,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 782993891}
+  - {fileID: 782994321}
   selectedCommands:
-  - {fileID: 782994556}
+  - {fileID: 782994557}
   variables:
   - {fileID: 782993864}
   - {fileID: 782993863}
@@ -7930,7 +7930,7 @@ MonoBehaviour:
   - {fileID: 782994368}
   - {fileID: 782994520}
   - {fileID: 782994521}
-  - {fileID: 782994367}
+  - {fileID: 782994557}
   - {fileID: 782994342}
   - {fileID: 782994322}
   suppressAllAutoSelections: 0
@@ -9223,35 +9223,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 888172816}
---- !u!114 &782994367
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 782993856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 698
-  indentLevel: 0
-  storyText: "\u041A\u0442\u043E-\u0442\u043E \u0441\u043E \u043C\u043D\u043E\u0439
-    \u043D\u0430 \u0411, \u043E\u0441\u0442\u0430\u043B\u044C\u043D\u044B\u0435 \u0438\u0434\u0443\u0442
-    \u0410."
-  description: 
-  character: {fileID: 1832837221}
-  portrait: {fileID: 21300000, guid: c22572a7fd9e1b14ab5951652dbf35fa, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 888172816}
 --- !u!114 &782994368
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9323,9 +9294,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 695
   indentLevel: 0
-  storyText: "\u042D\u0442\u043E \u0442\u044B \u043F\u043E\u0434 \u043F\u0440\u0438\u0446\u0435\u043B
-    \u0437\u0430\u043B\u0435\u0437, \u044F \u0442\u0430\u043C \u0432\u0435\u043A
-    \u043A\u0435\u043C\u043F\u0435\u0440\u0438\u043B."
+  storyText: "\u0423 \u043C\u0435\u043D\u044F \u043B\u0430\u043F\u043A\u0438."
   description: 
   character: {fileID: 1155417207}
   portrait: {fileID: 21300000, guid: 36014a1185d519b4a9438c2e39acab96, type: 3}
@@ -15718,6 +15687,35 @@ MonoBehaviour:
   returnValueType: System.Void
   showInherited: 0
   callMode: 0
+--- !u!114 &782994557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 782993856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 937
+  indentLevel: 0
+  storyText: "\u041A\u0442\u043E-\u0442\u043E \u0441\u043E \u043C\u043D\u043E\u0439
+    \u043D\u0430 \u0411, \u043E\u0441\u0442\u0430\u043B\u044C\u043D\u044B\u0435 \u0438\u0434\u0443\u0442
+    \u0410."
+  description: 
+  character: {fileID: 1832837221}
+  portrait: {fileID: 21300000, guid: c22572a7fd9e1b14ab5951652dbf35fa, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 888172816}
 --- !u!1001 &876452732
 PrefabInstance:
   m_ObjectHideFlags: 0
