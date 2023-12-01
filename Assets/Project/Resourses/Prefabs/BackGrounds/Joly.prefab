@@ -718,7 +718,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 816cd947c98552e4cbdc227b66e85180, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollUpDistance: {x: 0, y: 50}
+  scrollUpDistance: {x: 0, y: 100}
   scrollDownDistance: {x: 0, y: 0}
 --- !u!1 &6001014258307523541
 GameObject:
