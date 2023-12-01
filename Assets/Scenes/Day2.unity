@@ -555,6 +555,7 @@ GameObject:
   - component: {fileID: 243280208}
   - component: {fileID: 243280211}
   - component: {fileID: 243280210}
+  - component: {fileID: 243280212}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -578,7 +579,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -246.38991
     y: 233.49084
-    width: 120.312515
+    width: 115.30612
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -643,11 +644,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 611.859, y: -102.86989}
+  scrollPos: {x: 168.87389, y: -91.638824}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 472
-  zoom: 0.63999987
+  zoom: 0.49
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -655,7 +656,6 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-<<<<<<< HEAD
 <<<<<<< Updated upstream
   - {fileID: 243279900}
   selectedCommands:
@@ -664,11 +664,6 @@ MonoBehaviour:
   - {fileID: 243279883}
   selectedCommands: []
 >>>>>>> Stashed changes
-=======
-  - {fileID: 243279874}
-  selectedCommands:
-  - {fileID: 243279906}
->>>>>>> parent of f86d401 (SaveFix)
   variables:
   - {fileID: 243279844}
   - {fileID: 243279805}
@@ -748,7 +743,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 70.86427
     y: 278.6104
-    width: 109.375015
+    width: 105.102036
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -834,7 +829,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 233.83127
     y: 223.45073
-    width: 110.937515
+    width: 107.14285
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -927,7 +922,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 543.93604
     y: 223.65936
-    width: 121.875015
+    width: 117.34694
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1089,7 +1084,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 710.41974
     y: 334.7444
-    width: 125.000015
+    width: 123.46938
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1317,7 +1312,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 236.29327
     y: 334.27026
-    width: 90.62501
+    width: 88.77551
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1354,7 +1349,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 870.06396
     y: 334.65088
-    width: 126.562515
+    width: 125.5102
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1596,7 +1591,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1036.0544
     y: 334.94223
-    width: 68.75
+    width: 68.36735
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1611,6 +1606,7 @@ MonoBehaviour:
   - {fileID: 243280156}
   - {fileID: 243280157}
   - {fileID: 243280158}
+  - {fileID: 243280212}
   - {fileID: 243279893}
   suppressAllAutoSelections: 0
 --- !u!114 &243279905
@@ -1715,7 +1711,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -412.86353
     y: 319.70712
-    width: 118.750015
+    width: 115.30612
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1830,7 +1826,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -640.27545
     y: 276.8803
-    width: 78.12501
+    width: 76.53061
     height: 40
   tint: {r: 0.19824673, g: 0.764151, b: 0.3305643, a: 1}
   useCustomTint: 1
@@ -2432,7 +2428,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -86.831345
     y: 235.48727
-    width: 126.562515
+    width: 121.42857
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2654,7 +2650,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -413.21405
     y: 234.03986
-    width: 121.875015
+    width: 117.34694
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3526,7 +3522,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -230.48868
     y: 319.82242
-    width: 98.437515
+    width: 94.89796
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3611,7 +3607,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 543.536
     y: 334.8537
-    width: 125.000015
+    width: 123.46938
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4474,7 +4470,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 380.41394
     y: 224.09511
-    width: 120.312515
+    width: 115.30612
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5353,7 +5349,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -534.9408
     y: 277.07727
-    width: 104.687515
+    width: 101.02041
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6840,7 +6836,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 565.3458
     y: 275.74286
-    width: 81.25001
+    width: 80.61224
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7191,7 +7187,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -82.70942
     y: 321.75436
-    width: 123.437515
+    width: 119.38776
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11274,6 +11270,51 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
+--- !u!114 &243280212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 243279761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 506
+  indentLevel: 0
+  description: 
+  targetObject: {fileID: 1458402882}
+  targetComponentAssemblyName: SaveManager, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: SaveManager
+  targetMethod: SaveVondarm
+  targetMethodText: 'SaveVondarm (Int32): Void'
+  methodParameters:
+  - objValue:
+      typeAssemblyname: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      typeFullname: System.Int32
+      intValue: 0
+      boolValue: 0
+      floatValue: 0
+      stringValue: 
+      colorValue: {r: 0, g: 0, b: 0, a: 0}
+      gameObjectValue: {fileID: 0}
+      materialValue: {fileID: 0}
+      objectValue: {fileID: 0}
+      spriteValue: {fileID: 0}
+      textureValue: {fileID: 0}
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+    variableKey: Vondarm_Friendship
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!114 &286106442 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3130615760462673541, guid: 43b0cc66bf04fb7479ae4d80b943b6b8, type: 3}
