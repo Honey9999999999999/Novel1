@@ -1128,15 +1128,9 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-<<<<<<< Updated upstream
   - {fileID: 958230399}
   selectedCommands:
   - {fileID: 958231272}
-=======
-  - {fileID: 958230655}
-  selectedCommands:
-  - {fileID: 958230657}
->>>>>>> Stashed changes
   variables:
   - {fileID: 958230375}
   - {fileID: 958230374}
