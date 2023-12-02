@@ -16,23 +16,13 @@ mergeInto(LibraryManager.library, {
       console.log("Player data:", _data);
       const myJSON = JSON.stringify(_data);
       myGameInstance.SendMessage('Progress', 'SetPlayerInfo', myJSON);
-      myGameInstance.SendMessage('stars', 'Refresh');
     });
-  },
-
-  SendAutoStateExtern: function(state){
-    myGameInstance.SendMessage('AutoStartChecker', 'SetAutoState', state);
   },
 
   AutorizedExtern: function(){    
     ysdk.auth.openAuthDialog().then(() => {
       myGameInstance.SendMessage('AutoStartChecker', 'SetAutoState', "true");
-      myGameInstance.SendMessage('Progress','Load');
     });
-  },  
-
-  LoadPlayerDataExtern: function(){
-    myGameInstance.SendMessage('Progress','Load');
   },
 
   ShowAdvExtern : function(){

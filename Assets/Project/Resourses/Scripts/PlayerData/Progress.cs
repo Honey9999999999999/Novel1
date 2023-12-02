@@ -39,11 +39,11 @@ public class PlayerInfo
 
 public class Progress : MonoBehaviour
 {
-    public event Action OnSaveLoaded;
+    public static event Action OnSaveLoaded;
 
     public Save save;
 
-    public bool playerAutorizetedState;
+    public bool playerAutorizationState;
 
     [DllImport("__Internal")]
     private static extern void SaveExtern(string data);
@@ -68,7 +68,7 @@ public class Progress : MonoBehaviour
 
     public void Save()
     {
-        if (playerAutorizetedState)
+        if (playerAutorizationState)
         {
             string jsonString = JsonUtility.ToJson(save);
             SaveExtern(jsonString);
@@ -78,7 +78,7 @@ public class Progress : MonoBehaviour
     }
     public void Load()
     {
-        if (playerAutorizetedState)
+        if (playerAutorizationState)
         {
             LoadExtern();
             Debug.Log("Loading success");
@@ -89,6 +89,7 @@ public class Progress : MonoBehaviour
     {
         Debug.Log(value);
         save = JsonUtility.FromJson<Save>(value);
-        OnSaveLoaded?.Invoke();
+        Debug.Log("Player info is setted");
+        OnSaveLoaded?.Invoke();        
     }
 }

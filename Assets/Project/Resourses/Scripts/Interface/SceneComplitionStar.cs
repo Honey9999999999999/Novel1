@@ -9,6 +9,15 @@ public class EndStarComplition : MonoBehaviour
 
     [SerializeField] private List<Image> images = new List<Image>();
 
+    private void OnEnable()
+    {
+        Progress.OnSaveLoaded += Refresh;
+    }
+    private void OnDisable()
+    {
+        Progress.OnSaveLoaded -= Refresh;
+    }
+
     void Start()
     {
         Refresh();

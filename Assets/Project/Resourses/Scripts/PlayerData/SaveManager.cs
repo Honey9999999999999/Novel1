@@ -14,7 +14,7 @@ public class SaveManager : MonoBehaviour
 
     private void Start()
     {
-        Progress.instance.OnSaveLoaded += CheckSaves;
+        Progress.OnSaveLoaded += CheckSaves;
     }
     public void CheckSaves()
     {
