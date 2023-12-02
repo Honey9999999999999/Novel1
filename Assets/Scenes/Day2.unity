@@ -644,7 +644,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 345.22595, y: -123.90988}
+  scrollPos: {x: 772.8122, y: -70.46163}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 472
@@ -656,8 +656,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 243279883}
-  selectedCommands: []
+  - {fileID: 243279912}
+  selectedCommands:
+  - {fileID: 243279917}
   variables:
   - {fileID: 243279844}
   - {fileID: 243279805}
@@ -12252,6 +12253,23 @@ PrefabInstance:
       propertyPath: portraits.Array.data[2]
       value: 
       objectReference: {fileID: 21300000, guid: 5b4d3317271b0bb43b2f0c9060e0c8c1, type: 3}
+    - target: {fileID: 2415815755483406416, guid: 43b0cc66bf04fb7479ae4d80b943b6b8, type: 3}
+      propertyPath: nameText
+      value: "\u0433\u043E\u043B\u043E\u0441\u043E\u0432\u043E\u0439 \u043F\u043E\u043C\u043E\u0449\u043D\u0438\u043A
+        \u042D\u043B\u0438\u0441"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2415815755483406416, guid: 43b0cc66bf04fb7479ae4d80b943b6b8, type: 3}
+      propertyPath: nameColor.b
+      value: 0.5529412
+      objectReference: {fileID: 0}
+    - target: {fileID: 2415815755483406416, guid: 43b0cc66bf04fb7479ae4d80b943b6b8, type: 3}
+      propertyPath: nameColor.g
+      value: 0.18039216
+      objectReference: {fileID: 0}
+    - target: {fileID: 2415815755483406416, guid: 43b0cc66bf04fb7479ae4d80b943b6b8, type: 3}
+      propertyPath: nameColor.r
+      value: 0.5882353
+      objectReference: {fileID: 0}
     - target: {fileID: 2786873425632894323, guid: 43b0cc66bf04fb7479ae4d80b943b6b8, type: 3}
       propertyPath: portraits.Array.size
       value: 3
