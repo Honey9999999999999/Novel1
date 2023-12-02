@@ -11,15 +11,22 @@ public class Yandex : MonoBehaviour
     [DllImport("__Internal")]
     private static extern void GiveMePlayerData();
 
-    [SerializeField] Text _nameText;
-    [SerializeField] RawImage _photo;
+    [DllImport("__Internal")]
+    private static extern void AutorizedExtern();
 
     [DllImport("__Internal")]
     private static extern void ShowAdvExtern();
 
-    public void AutorizeteButton()
+    [SerializeField] Text _nameText;
+    [SerializeField] RawImage _photo;
+
+    public static void ShowAdv()
     {
-        GiveMePlayerData();
+        ShowAdvExtern();
+    }
+    public static void AutorizeteButton()
+    {
+        AutorizedExtern();
     }
 
     public void SetName(string name)
@@ -42,10 +49,5 @@ public class Yandex : MonoBehaviour
             Debug.Log(request.error);
         else
             _photo.texture = ((DownloadHandlerTexture)request.downloadHandler).texture;
-    }
-
-    public static void ShowAdv()
-    {
-        ShowAdvExtern();
-    }
+    }    
 }

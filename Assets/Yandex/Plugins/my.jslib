@@ -20,6 +20,21 @@ mergeInto(LibraryManager.library, {
     });
   },
 
+  AutorizedExtern: function(){    
+    ysdk.auth.openAuthDialog().then(() => {
+      SendAutoStateExtern("true");
+      LoadPlayerDataExtern();
+    });
+  },
+
+  SendAutoStateExtern: function(state){
+    myGameInstance.SendMessage('AutoStartChecker', 'SetAutoState', state);
+  },
+
+  LoadPlayerDataExtern: function(){
+    myGameInstance.SendMessage('Progress','Load');
+  },
+
   ShowAdvExtern : function(){
     ysdk.adv.showFullscreenAdv({
     callbacks: {
