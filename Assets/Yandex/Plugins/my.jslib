@@ -20,16 +20,16 @@ mergeInto(LibraryManager.library, {
     });
   },
 
-  AutorizedExtern: function(){    
-    ysdk.auth.openAuthDialog().then(() => {
-      SendAutoStateExtern("true");
-      LoadPlayerDataExtern();
-    });
-  },
-
   SendAutoStateExtern: function(state){
     myGameInstance.SendMessage('AutoStartChecker', 'SetAutoState', state);
   },
+
+  AutorizedExtern: function(){    
+    ysdk.auth.openAuthDialog().then(() => {
+      myGameInstance.SendMessage('AutoStartChecker', 'SetAutoState', "true");
+      myGameInstance.SendMessage('Progress','Load');
+    });
+  },  
 
   LoadPlayerDataExtern: function(){
     myGameInstance.SendMessage('Progress','Load');
