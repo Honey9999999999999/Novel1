@@ -19,7 +19,7 @@ public class MenuStateSetter : MonoBehaviour
 
     private void Start()
     {
-        if (Progress.instance.save.level != 0)
+        if (Progress.instance.save.level != 0 || Progress.instance.playerAutorizationState)
             SetMenuState();
     }
     
