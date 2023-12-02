@@ -24,7 +24,7 @@ public class MenuStateSetter : MonoBehaviour
         if (autoButton.gameObject.activeSelf == state && state)
             Buttons.transform.position += new Vector3(0, -50, 0);
 
-        loadButton.interactable = state;
+        loadButton.interactable = state && Progress.instance.save.level != 0;
         autoButton.gameObject.SetActive(!state);
     }
 
