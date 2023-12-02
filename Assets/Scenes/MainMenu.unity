@@ -508,7 +508,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0.98g
+  m_Text: 0.99b
 --- !u!222 &288994327
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -550,9 +550,9 @@ RectTransform:
   - {fileID: 1051013558}
   m_Father: {fileID: 1302738957}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -267, y: 142.34998}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -267, y: 0}
   m_SizeDelta: {x: 535, y: 161.81}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &343275443
@@ -1698,10 +1698,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 343275442}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -24, y: 2}
-  m_SizeDelta: {x: 401.19, y: 117.7}
+  m_SizeDelta: {x: -134.81, y: -44.300003}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1051013559
 MonoBehaviour:
@@ -1727,7 +1727,7 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: 888e151d026903543b4d160918f1c028, type: 3}
     m_FontSize: 44
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 3
     m_MaxSize: 96
     m_Alignment: 4
@@ -2275,7 +2275,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1296806170}
   m_OnClick:
     m_PersistentCalls:
