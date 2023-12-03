@@ -481,7 +481,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 333880419}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 333880436}
   variables:
   - {fileID: 333880417}
   description: 
@@ -882,7 +883,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 3
+    floatVal: 2
   durationOLD: 0
 --- !u!1 &414082942
 GameObject:

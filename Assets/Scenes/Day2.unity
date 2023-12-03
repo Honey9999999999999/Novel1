@@ -556,6 +556,7 @@ GameObject:
   - component: {fileID: 243280211}
   - component: {fileID: 243280210}
   - component: {fileID: 243280212}
+  - component: {fileID: 243280213}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -657,8 +658,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 243279912}
-  selectedCommands:
-  - {fileID: 243279917}
+  selectedCommands: []
   variables:
   - {fileID: 243279844}
   - {fileID: 243279805}
@@ -1305,7 +1305,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 236.29327
+    x: 234.56914
     y: 338.3519
     width: 94.82759
     height: 40
@@ -2422,7 +2422,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -86.831345
-    y: 235.48727
+    y: 233.76314
     width: 127.58622
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2437,6 +2437,7 @@ MonoBehaviour:
   - {fileID: 243280095}
   - {fileID: 243280094}
   - {fileID: 243280096}
+  - {fileID: 243280213}
   - {fileID: 243279951}
   - {fileID: 243279950}
   - {fileID: 243279949}
@@ -11267,7 +11268,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &243280212
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -11310,6 +11311,24 @@ MonoBehaviour:
   returnValueType: System.Void
   showInherited: 0
   callMode: 0
+--- !u!114 &243280213
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 243279761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 507
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
 --- !u!114 &286106442 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3130615760462673541, guid: 43b0cc66bf04fb7479ae4d80b943b6b8, type: 3}
