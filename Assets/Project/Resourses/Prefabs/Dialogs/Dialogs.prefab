@@ -93,6 +93,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 1097655898740243991, guid: 62659a45737279a45b245366aa81517c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.00012207031
+      objectReference: {fileID: 0}
     - target: {fileID: 1292293170769156468, guid: 62659a45737279a45b245366aa81517c, type: 3}
       propertyPath: m_Name
       value: SayDialogs
@@ -228,6 +232,10 @@ PrefabInstance:
     - target: {fileID: 5675918217909444011, guid: 62659a45737279a45b245366aa81517c, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899893469183915505, guid: 62659a45737279a45b245366aa81517c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12.92572
       objectReference: {fileID: 0}
     - target: {fileID: 7297122654306894205, guid: 62659a45737279a45b245366aa81517c, type: 3}
       propertyPath: audioMode
