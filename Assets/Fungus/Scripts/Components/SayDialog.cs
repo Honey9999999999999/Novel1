@@ -404,9 +404,9 @@ namespace Fungus
 
                 if (startStoryTextWidth != 0)
                 {
-                    StoryTextRectTrans.SetInsetAndSizeFromParentEdge(RectTransform.Edge.Left, 
-                        startStoryTextInset, 
-                        startStoryTextWidth);
+                    //StoryTextRectTrans.SetInsetAndSizeFromParentEdge(RectTransform.Edge.Left, 
+                    //    startStoryTextInset, 
+                    //    startStoryTextWidth);
                 }
             }
 
@@ -417,23 +417,23 @@ namespace Fungus
             {
                 if (Mathf.Approximately(startStoryTextWidth, 0f))
                 {
-                    startStoryTextWidth = StoryTextRectTrans.rect.width;
-                    startStoryTextInset = StoryTextRectTrans.offsetMin.x; 
+                    //startStoryTextWidth = StoryTextRectTrans.rect.width;
+                    //startStoryTextInset = StoryTextRectTrans.offsetMin.x; 
                 }
 
                 // Clamp story text to left or right depending on relative position of the character image
-                if (StoryTextRectTrans.position.x < characterImage.rectTransform.position.x)
-                {
-                    StoryTextRectTrans.SetInsetAndSizeFromParentEdge(RectTransform.Edge.Left, 
-                        startStoryTextInset, 
-                        startStoryTextWidth - characterImage.rectTransform.rect.width);
-                }
-                else
-                {
-                    StoryTextRectTrans.SetInsetAndSizeFromParentEdge(RectTransform.Edge.Right, 
-                        startStoryTextInset, 
-                        startStoryTextWidth - characterImage.rectTransform.rect.width);
-                }
+                //if (StoryTextRectTrans.position.x < characterImage.rectTransform.position.x)
+                //{
+                //    StoryTextRectTrans.SetInsetAndSizeFromParentEdge(RectTransform.Edge.Left, 
+                //        startStoryTextInset, 
+                //        startStoryTextWidth - characterImage.rectTransform.rect.width);
+                //}
+                //else
+                //{
+                //    StoryTextRectTrans.SetInsetAndSizeFromParentEdge(RectTransform.Edge.Right, 
+                //        startStoryTextInset, 
+                //        startStoryTextWidth - characterImage.rectTransform.rect.width);
+                //}
             }
         }
 

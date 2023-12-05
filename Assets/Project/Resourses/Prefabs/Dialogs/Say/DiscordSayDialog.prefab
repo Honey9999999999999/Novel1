@@ -90,7 +90,6 @@ GameObject:
   - component: {fileID: 781489611481744009}
   - component: {fileID: 8158074844477345496}
   - component: {fileID: 5605842245361116072}
-  - component: {fileID: 9129492712568230336}
   - component: {fileID: 1324822956273040242}
   - component: {fileID: 5727151658228374952}
   - component: {fileID: 7215619470705447984}
@@ -145,7 +144,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!114 &5605842245361116072
 MonoBehaviour:
@@ -170,18 +169,6 @@ MonoBehaviour:
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
   m_PresetInfoIsWorld: 0
---- !u!225 &9129492712568230336
-CanvasGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1888546005941156071}
-  m_Enabled: 1
-  m_Alpha: 1
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
-  m_IgnoreParentGroups: 0
 --- !u!114 &1324822956273040242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -520,7 +507,6 @@ GameObject:
   - component: {fileID: 5415342277887795509}
   - component: {fileID: 5026522127391787482}
   - component: {fileID: 3479496174317312480}
-  - component: {fileID: 1175476428492796060}
   - component: {fileID: 1127591519577818638}
   m_Layer: 5
   m_Name: Panel
@@ -546,10 +532,10 @@ RectTransform:
   - {fileID: 1584177438516357843}
   m_Father: {fileID: 781489611481744009}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -635, y: 182}
-  m_SizeDelta: {x: 1340, y: 800}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!222 &5026522127391787482
 CanvasRenderer:
@@ -589,18 +575,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!225 &1175476428492796060
-CanvasGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3858267355160705156}
-  m_Enabled: 1
-  m_Alpha: 1
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
-  m_IgnoreParentGroups: 0
 --- !u!114 &1127591519577818638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -641,7 +615,6 @@ GameObject:
   - component: {fileID: 1584177438516357843}
   - component: {fileID: 2975487462581424345}
   - component: {fileID: 7801475887713023381}
-  - component: {fileID: 1378774918881977182}
   m_Layer: 5
   m_Name: StoryText
   m_TagString: Untagged
@@ -666,8 +639,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 124.99992, y: 80}
-  m_SizeDelta: {x: 190.00014, y: -340}
+  m_AnchoredPosition: {x: 5.222412, y: 29.79663}
+  m_SizeDelta: {x: -675.5552, y: -422.8532}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2975487462581424345
 CanvasRenderer:
@@ -710,27 +683,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Story text
---- !u!114 &1378774918881977182
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5177077663392957087}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreLayout: 1
-  m_MinWidth: -1
-  m_MinHeight: -1
-  m_PreferredWidth: 1150
-  m_PreferredHeight: 200
-  m_FlexibleWidth: 1
-  m_FlexibleHeight: -1
-  m_LayoutPriority: 1
+  m_Text: "\u0444\u044B\u0430\u044B\u0432\u0432\u0432\u0432\u0432\u0432\u0432\u0432\u0432\u0432\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0432\u0430\u043F\u0444\u044B\u0432\u0430\u043F\u0432\u0430\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0430\u043F\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F\u0444\u044B\u0430\u044B\u0432\u043F\u044B\u0432\u0430\u043F\u0432\u044B\u0430\u043F"
 --- !u!1 &6440176154987801911
 GameObject:
   m_ObjectHideFlags: 0
@@ -765,7 +718,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 687, y: -38.369995}
+  m_AnchoredPosition: {x: 1000, y: -130}
   m_SizeDelta: {x: 1106, y: 71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2891932713814008285
@@ -821,7 +774,6 @@ GameObject:
   - component: {fileID: 957328510200156625}
   - component: {fileID: 4014231233654998709}
   - component: {fileID: 3291513660684212545}
-  - component: {fileID: 3032145923490143806}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -843,9 +795,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 5415342277887795509}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -1255.1, y: 768.2}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 394.9, y: -126.529785}
   m_SizeDelta: {x: 357, y: 435}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4014231233654998709
@@ -886,23 +838,3 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &3032145923490143806
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7731948010504231106}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreLayout: 0
-  m_MinWidth: -1
-  m_MinHeight: -1
-  m_PreferredWidth: 350
-  m_PreferredHeight: 350
-  m_FlexibleWidth: -1
-  m_FlexibleHeight: -1
-  m_LayoutPriority: 1
