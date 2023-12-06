@@ -7,6 +7,7 @@ mergeInto(LibraryManager.library, {
 
   SaveExtern: function(data){
     var dataString = UTF8ToString(data);
+    console.log("Data String:", dataString);
     var dataObject = JSON.parse(dataString);
     player.setData(dataObject);
   },
@@ -19,19 +20,22 @@ mergeInto(LibraryManager.library, {
     });
   },
 
-  SaveLocalExtern: function(key, data){
-    ysdk.getStorage().then(safeStorage => {
-        var dataString = UTF8ToString(data);
-        var dataObject = JSON.parse(dataString);
+  SaveLocalExtern: function(key, value){
+    var dataString = UTF8ToString(value);
+    console.log("Data String:", dataString);
+    var dataObject = JSON.parse(dataString);
+
+    ysdk.getStorage().then(safeStorage => {        
         safeStorage.setItem(key, dataObject);
-        console.log(safeStorage.getItem(key))
+        console.log(safeStorage.getItem(key));
     });
   },
 
-  LoadLocalExtern: function(key){
-    ysdk.getStorage().then(safeStorage => {
+  LoadLocalExtern: function(key){    
+    ysdk.getStorage().then(safeStorage => {        
         const myJSON = JSON.stringify(safeStorage.getItem(key));
-        myGameInstance.SendMessage('Progress', 'SetPlayerInfo', myJSON);
+        console.log("my loading JSON:", myJSON);
+        myGameInstance.SendMessage('Progress', 'SetPlayerInfo', myJSON);        
     });
   },
 

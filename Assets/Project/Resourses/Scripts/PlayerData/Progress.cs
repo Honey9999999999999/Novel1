@@ -85,9 +85,15 @@ public class Progress : MonoBehaviour
     {
         string jsonString = JsonUtility.ToJson(save);
         if (playerAutorizationState)
+        {
+            Debug.Log("Original JSON String: " + jsonString);
             SaveExtern(jsonString);
+        }            
         else
+        {
+            Debug.Log("Original JSON String: " + jsonString);
             SaveLocalExtern("save1", jsonString);
+        }            
     }
 
     public void Load()
@@ -100,7 +106,6 @@ public class Progress : MonoBehaviour
 
     public void SetPlayerInfo(string value)
     {
-        Debug.Log(value);
         save = JsonUtility.FromJson<Save>(value);
         Debug.Log("Player info is setted");
         SaveLoaded?.Invoke();        

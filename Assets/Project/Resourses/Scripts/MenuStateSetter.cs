@@ -34,9 +34,9 @@ public class MenuStateSetter : MonoBehaviour
 
         if (Progress.instance.playerAutorizationState)
         {
-            _save = Progress.instance.save;
-            Progress.instance.Load();            
-        }            
+            _save = Progress.instance.save;                      
+        }
+        Progress.instance.Load();
     }
 
     private void CheckSave()
