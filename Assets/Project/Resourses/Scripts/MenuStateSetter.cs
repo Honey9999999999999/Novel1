@@ -4,17 +4,22 @@ using UnityEngine.UI;
 public class MenuStateSetter : MonoBehaviour
 {
     [SerializeField] private GameObject dialogCloud;
+    [SerializeField] private GameObject messegeBox;
     [SerializeField] private GameObject Buttons;
     [SerializeField] private Button loadButton;
-    [SerializeField] private Button autoButton;    
+    [SerializeField] private Button autoButton;
+
+    private Save _save;
 
     private void OnEnable()
     {
-        Progress.OnSaveLoaded += SetMenuState;
+        Progress.SaveLoaded += SetMenuState;
+        Progress.SaveLoaded += CheckSave;
     }
     private void OnDisable()
     {
-        Progress.OnSaveLoaded -= SetMenuState;
+        Progress.SaveLoaded -= SetMenuState;
+        Progress.SaveLoaded -= CheckSave;
     }
 
     private void Start()
@@ -28,8 +33,27 @@ public class MenuStateSetter : MonoBehaviour
         Progress.instance.playerAutorizationState = ConvertString(state);
 
         if (Progress.instance.playerAutorizationState)
-            Progress.instance.Load();
+        {
+            _save = Progress.instance.save;
+            Progress.instance.Load();            
+        }            
     }
+
+    private void CheckSave()
+    {
+        if (_save != null && (Progress.instance.save.level > 0 ||
+                Progress.instance.save.GetCountStars() > 0))
+        {
+            messegeBox.SetActive(true);
+        }
+    }
+
+    public void loadOld()
+    {
+        Progress.instance.save = _save;
+        _save = null;
+    }
+
     private void SetMenuState()
     {
         bool state = Progress.instance.playerAutorizationState;

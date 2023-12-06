@@ -19,10 +19,31 @@ mergeInto(LibraryManager.library, {
     });
   },
 
+  SaveLocalExtern: function(key, data){
+    ysdk.getStorage().then(safeStorage => {
+        var dataString = UTF8ToString(data);
+        var dataObject = JSON.parse(dataString);
+        safeStorage.setItem(key, dataObject);
+        console.log(safeStorage.getItem(key))
+    });
+  },
+
+  LoadLocalExtern: function(key){
+    ysdk.getStorage().then(safeStorage => {
+        const myJSON = JSON.stringify(safeStorage.getItem(key));
+        myGameInstance.SendMessage('Progress', 'SetPlayerInfo', myJSON);
+    });
+  },
+
   AutorizedExtern: function(){    
     ysdk.auth.openAuthDialog().then(() => {
       myGameInstance.SendMessage('AutoStartChecker', 'SetAutoState', "true");
     });
+  },
+
+  TryAuthExtern: function(){    
+    gameIsLoaded = true;
+    tryAuth();
   },
 
   ShowAdvExtern : function(){

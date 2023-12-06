@@ -14,7 +14,7 @@ public class SaveManager : MonoBehaviour
 
     private void Start()
     {
-        Progress.OnSaveLoaded += CheckSaves;
+        Progress.SaveLoaded += CheckSaves;
     }
     public void CheckSaves()
     {
@@ -22,12 +22,16 @@ public class SaveManager : MonoBehaviour
             gameObject.GetComponent<Button>().interactable = false;
     }
 
-    public void Save()
+    public void SaveData()
     {
         Progress.instance.Save();
     }
+    public void LoadData()
+    {
+        Progress.instance.Load();
+    }
 
-    public void Load()
+    public void LoadLevel()
     {
         SceneManager.LoadScene(Progress.instance.save.level);
     }
@@ -81,7 +85,7 @@ public class SaveManager : MonoBehaviour
         Progress.instance.save.playerInfo.vondarm = 0;
         Progress.instance.save.playerInfo.joly = 0;
 
-        Save();
+        SaveData();
     }
     public void FullReset()
     {

@@ -261,7 +261,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 104
     y: 136
-    width: 77.83505
+    width: 77.21649
     height: 40
   tint: {r: 0.16794233, g: 0.9622642, b: 0.3254877, a: 1}
   useCustomTint: 1
@@ -404,7 +404,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 214.82057
     y: 133
-    width: 71.64948
+    width: 69.793816
     height: 40
   tint: {r: 1, g: 0.3285867, b: 0.19339621, a: 1}
   useCustomTint: 1
@@ -639,8 +639,8 @@ MonoBehaviour:
     PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
   targetComponentText: SaveManager
-  targetMethod: Save
-  targetMethodText: 'Save (): Void'
+  targetMethod: SaveData
+  targetMethodText: 'SaveData (): Void'
   methodParameters: []
   saveReturnValue: 0
   returnValueVariableKey: 

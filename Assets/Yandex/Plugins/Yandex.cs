@@ -16,9 +16,16 @@ public class Yandex : MonoBehaviour
 
     [DllImport("__Internal")]
     private static extern void ShowAdvExtern();
+    [DllImport("__Internal")]
+    private static extern void TryAuthExtern();
 
     [SerializeField] Text _nameText;
     [SerializeField] RawImage _photo;
+
+    private void Start()
+    {
+        TryAuthExtern();
+    }
 
     public static void ShowAdv()
     {

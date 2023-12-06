@@ -11,11 +11,11 @@ public class EndStarComplition : MonoBehaviour
 
     private void OnEnable()
     {
-        Progress.OnSaveLoaded += Refresh;
+        Progress.SaveLoaded += Refresh;
     }
     private void OnDisable()
     {
-        Progress.OnSaveLoaded -= Refresh;
+        Progress.SaveLoaded -= Refresh;
     }
 
     void Start()

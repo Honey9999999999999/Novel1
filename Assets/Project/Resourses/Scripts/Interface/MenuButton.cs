@@ -8,11 +8,9 @@ public class MenuButton : MonoBehaviour
 {
     [SerializeField] private List<GameObject> dialogPanels;
     [SerializeField] private GameObject menu;
-    [SerializeField] private Flowchart flowchart;
 
     public void Toggle()
     {
-        var saveManager = FungusManager.Instance.SaveManager;
         menu.SetActive(!menu.activeSelf);
 
         if (dialogPanels.Count > 0)

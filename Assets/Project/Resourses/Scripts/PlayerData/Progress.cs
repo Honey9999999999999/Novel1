@@ -21,6 +21,17 @@ public class Save
         false,
         false
     };
+
+    public int GetCountStars()
+    {
+        int result = 0;
+
+        foreach (var item in stars)
+            if (item)
+                result++;
+
+        return result;
+    }
 }
 
 [Serializable]
@@ -39,7 +50,7 @@ public class PlayerInfo
 
 public class Progress : MonoBehaviour
 {
-    public static event Action OnSaveLoaded;
+    public static event Action SaveLoaded;
 
     public Save save;
 
@@ -49,6 +60,10 @@ public class Progress : MonoBehaviour
     private static extern void SaveExtern(string data);
     [DllImport("__Internal")]
     private static extern void LoadExtern();
+    [DllImport("__Internal")]
+    private static extern void SaveLocalExtern(string key, string data);
+    [DllImport("__Internal")]
+    private static extern void LoadLocalExtern(string key);
 
     public static Progress instance;
 
@@ -68,21 +83,19 @@ public class Progress : MonoBehaviour
 
     public void Save()
     {
+        string jsonString = JsonUtility.ToJson(save);
         if (playerAutorizationState)
-        {
-            string jsonString = JsonUtility.ToJson(save);
             SaveExtern(jsonString);
-            Debug.Log("Saving success");
-        }
-        
+        else
+            SaveLocalExtern("save1", jsonString);
     }
+
     public void Load()
     {
         if (playerAutorizationState)
-        {
             LoadExtern();
-            Debug.Log("Loading success");
-        }
+        else
+            LoadLocalExtern("save1");
     }
 
     public void SetPlayerInfo(string value)
@@ -90,6 +103,6 @@ public class Progress : MonoBehaviour
         Debug.Log(value);
         save = JsonUtility.FromJson<Save>(value);
         Debug.Log("Player info is setted");
-        OnSaveLoaded?.Invoke();        
+        SaveLoaded?.Invoke();        
     }
 }
